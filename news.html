@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>纸匠文化 - 纸匠动态 - 纸家具_益智玩具_纸玩_纸匠</title>
+	<meta name="keywords" content="纸家具,创意家具,益智玩具,纸玩,纸匠"/>
+	<meta name="description" content="纸匠文化 - 纸匠动态 - 纸匠做为纸玩行业领导者,现有创意生活家居,实用办公用品,礼品装饰品,商业道具,儿童益智玩具与教程五大系列产品。专注于纸家具和儿童产品开发，让儿童感受到环保、益智、学习乐趣"/>
+	<link rel="shortcut icon" href="images/logo.ico">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<!-- Salvattore -->
+	<link rel="stylesheet" href="css/salvattore.css">
+	<link rel="stylesheet" href="css/all.css">
+	<!-- Theme Style -->
+	<style>
+	 	body,html{
+	 		overflow: visible;
+	 		padding: 0;
+	 		margin: 0;
+	 		background-color: #f4f4f4;
+	 	}
+	 	p,ul{
+	 		margin: 0;
+	 		padding: 0;
+	 	}
+		.bd-wrap{
+			width: 100%;
+			height: auto;
+			position: relative;
+			background-color: #f4f4f4;
+		}
+		.bd-wrap img{
+			width: 100%;
+			height: 100%;
+		}
+		.family-container{
+			width: 90%;
+			background-color: #fff;
+			padding: 30px;
+			padding-bottom: 90px;
+			position: relative;
+		}
+		.bd-about img{
+			width: 100%;
+			height: auto;
+		}
+		.mai-img img{
+			width: 100%;
+			height: auto;
+		}
+		.col-main{
+			padding: 35px 8px;
+		}
+		.main-title{
+			padding-top: 5px;
+		}
+		.hd-title{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+		}
+		.hd-title p{
+			font-size: 3.43rem;
+			font-weight: 500;
+			color: #fff;
+		}
+		.hd-title span{
+			font-size: 1.71rem;
+			color: #fff;
+			display: block;
+			text-align: center;
+		}
+		
+		.top-title{
+			position: absolute;
+			top: 180px;
+			left: 180px;
+			border-top: solid 5px #fff;
+			border-bottom: solid 5px #fff;
+			width: 225px;
+		}
+		.top-title p{
+			font-size: 36px;
+			color: #fff;
+			font-weight: 400;
+		}
+		.top-title span{
+			font-size: 20px;
+			color: #fff;
+			font-weight: 300;
+		}
+		
+		
+		
+		.video-container{
+			width: 90%;
+			margin-top: -245px;
+			position: relative;
+			background-color: #fff;
+			margin-bottom: 20px;
+		}
+		.video-cols{
+			height: 60px;
+		}
+		.video-cols p{
+			float: left;
+			color: rgba(0, 0, 0, 0.26);
+			line-height: 60px;
+		}
+		.row {
+			margin-left: 0px;
+			margin-right: 0px;
+		}
+		.nav {
+			margin-left: -15px;
+			margin-right: -15px;
+		}
+		.col-md-12 {
+			padding: 0;
+			float: left;
+			border-bottom: 1px dashed #ccc
+		}
+		.col-md-12 a {
+			color: rgba(0, 0, 0, 0.87)
+		}
+		.col-md-12 h2 {
+			font-size: 14px;
+			width: 90%;
+			float: left;
+		}
+		.col-md-12 em {
+			float: right;
+			text-align: right;
+			width: 10%;
+			font-size: 14px;
+			color: #ccc;
+		    margin-top: 20px;
+		    margin-bottom: 10px;
+		}
+
+
+		/*翻页*/
+		.page{
+			margin-top: 45px;
+			overflow: hidden;
+			height: 40px;
+		}
+		.pageNum{
+			overflow: hidden;
+		}
+		.page li,.pageNum li{
+			text-align: center;
+			height: 40px;
+			float: left;
+			line-height: 40px;
+			cursor:pointer;
+		}
+		.page li span{
+			display: block;
+			width: 40px;
+			height: 100%;
+			color:#333;
+			cursor: pointer;
+		}
+		.prePage{
+			width: 40px;
+			background: url('images/play-copy-2.png') no-repeat center;
+			-webkit-background-size: 20px;
+			background-size: 20px;
+		}
+		.nextPage{
+			width: 40px;
+			background: url('images/play-copy-3.png') no-repeat center;
+			-webkit-background-size: 20px;
+			background-size: 20px;
+		}
+		.page li .pageActive{
+			background: #aa7322;
+			color:#FFF;
+		}
+		.pageSize{
+			max-width:160px;
+			overflow: hidden;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="bd-wrap">
+		<img src="images/video-banner.png" alt="纸匠官网">
+		<div class="top-title">
+			<p>纸匠动态</p>
+			<span>News & Trends</span>
+		</div>
+	</div>
+
+	<div class="container video-container">
+			<div class="row nav">
+				<div class="col-sm-12 video-cols">
+					<p><a href="https://www.papermaker.cn">纸匠&nbsp;&nbsp;&nbsp;/&nbsp;</a></p>
+					<div class="nav-p">
+						<a href="news.html">&nbsp;&nbsp;&nbsp;纸匠文化 &nbsp;<span class="sanjiao"></span> &nbsp;&nbsp;/ </a>
+						<ul class="nav-ul">
+							<li><a href="culture_about.html">文化简介</a></li>
+							<li><a href="contest.html">纸玩大赛</a></li>
+							<li><a href="expo.html">博览馆</a></li>
+							<li><a href="news.html">纸匠动态</a></li>
+						</ul>
+					</div>
+					<p style="color: #000;">&nbsp;&nbsp;&nbsp;纸匠动态  </p>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="container family-container">
+			<ul class="row totalNews">
+				<li class="col-md-12"><a href="">
+						<h2>纸匠参展第十三届中国国际中小企业博览会</h2>
+						<em>2016-06-07</em>
+					</a></li>
+			 </ul>
+			<ul class="page">
+				<li class="prePage"></li>
+				<li><span class="fristPage">首页</span></li>
+				<li class="pageSize">
+					<ul class="pageNum">
+						<li><span>1</span></li>
+					</ul>
+				</li>
+				<li><span class="lastPage">末页</span></li>
+				<li class="nextPage"></li>
+			</ul>
+		</div>
+		
+	<footer></footer>
+
+
+	<script src="js/jquery-1.10.2.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/salvattore.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/ajax.js"></script>
+	<script>
+        $(function () {
+            var totalPage,nowPage;//总页数和当前页数
+            var number = 1;//起始页数
+                 ajax("post","culture/newsList",function (res) {
+                     var dataArray = res.data.lilst;
+                     nowPage = res.data.nowPage;
+                     totalPage = res.data.totalPage;
+                     var html = '';
+                     //新闻列表
+                     if(dataArray.length>0){
+                         for(var i=0;i<dataArray.length;i++){
+                             var date = FormatDate(dataArray[i].time);
+							 html += '<li class="col-md-12"><a href="newDetail.html?newsId='+dataArray[i].id+'"> ' +
+								 '<h2>'+dataArray[i].name+'</h2> ' +
+								 '<em>'+date+'</em> ' +
+								 '</a></li>'
+                         }
+                         $(".totalNews").html(html)
+                     }
+                     //翻页
+					 if(totalPage > 1){
+						 var pageList = '';
+					 	 for(var pageNum=1;pageNum<=totalPage;pageNum++){
+					 		 pageList += '<li><span>'+pageNum+'</span></li>'
+					 	 }
+					 	 $(".pageNum").html(pageList);
+                         $(".pageNum li:eq(0) span").addClass("pageActive");
+					 }else {
+					     $(".page").hide();
+					 }
+
+                     $(".loading").fadeOut(100);
+                     detailSize();//具体页数
+					 //首页
+					 $(".fristPage").click(function () {
+                         var size = 1;
+                         var pageData = {
+                             "pageNo":size,
+                             "pageSize":20
+                         };
+                         getNews(pageData);
+                         var pageList = '';
+                         for(var pageNum=size;pageNum<=totalPage;pageNum++){
+                             pageList += '<li><span>'+pageNum+'</span></li>'
+                         }
+                         $(".pageNum").html(pageList);
+                         $(".pageNum li span").removeClass("pageActive");
+                         $(".pageNum li:eq(0) span").addClass("pageActive");
+                     });
+					 //尾页
+                     $(".lastPage").click(function () {
+                         var pageData = {
+                             "pageNo":totalPage,
+                             "pageSize":20
+                         };
+                         getNews(pageData);
+                         var pageNum = totalPage-3;
+                         var pageList = '';
+                         for(pageNum;pageNum<=totalPage;pageNum++){
+                             pageList += '<li><span>'+pageNum+'</span></li>';
+                         }
+                         $(".pageNum").html(pageList);
+                         $(".pageNum li span").removeClass("pageActive");
+                         $(".pageNum li:last-child span").addClass("pageActive");
+                     })
+                 });
+
+            function getNews(newData) {
+                ajax("post","culture/newsList",newData,function (res) {
+                    var dataArray = res.data.lilst;
+                    nowPage = res.data.nowPage;
+                    totalPage = res.data.totalPage;
+                    var html = '';
+                    //新闻列表
+                    if(dataArray.length>0){
+                        for(var i=0;i<dataArray.length;i++){
+                            var date = FormatDate(dataArray[i].time);
+                            html += '<li class="col-md-12"><a href="newDetail.html?newsId='+dataArray[i].id+'"> ' +
+                                '<h2>'+dataArray[i].name+'</h2> ' +
+                                '<em>'+date+'</em> ' +
+                                '</a></li>'
+                        }
+                        $(".totalNews").html(html)
+                    }
+                    $(".loading").fadeOut(100);
+                    detailSize();//具体页数
+                    //首页
+                    $(".fristPage").click(function () {
+                        var size = 1;
+                        var pageData = {
+                            "pageNo":size,
+                            "pageSize":20
+                        };
+                        getNews(pageData);
+                        var pageList = '';
+                        for(var pageNum=size;pageNum<=totalPage;pageNum++){
+                            pageList += '<li><span>'+pageNum+'</span></li>'
+                        }
+                        $(".pageNum").html(pageList);
+                        $(".pageNum li span").removeClass("pageActive");
+                        $(".pageNum li:eq(0) span").addClass("pageActive");
+                    });
+                    //尾页
+                    $(".lastPage").click(function () {
+                        var pageData = {
+                            "pageNo":totalPage,
+                            "pageSize":20
+                        };
+                        getNews(pageData);
+                        var pageNum = totalPage-3;
+                        var pageList = '';
+                        for(pageNum;pageNum<=totalPage;pageNum++){
+                            pageList += '<li><span>'+pageNum+'</span></li>';
+                        }
+                        $(".pageNum").html(pageList);
+                        $(".pageNum li span").removeClass("pageActive");
+                        $(".pageNum li:last-child span").addClass("pageActive");
+                    })
+                });
+             }
+
+			//下一页
+			$(".nextPage").click(function () {
+                var size = $(".pageActive").html();
+                number = $(".pageNum li:eq(0) span").html();
+                number ++;
+                if(size >= totalPage){
+                    return;
+                }
+                var ul = $(".pageNum li");
+                var nowSizePos;//色块当前位置
+                for(var s=0;s<ul.length;s++){
+                    var node = $(".pageNum li").eq(s).find("span");
+                    if(node.hasClass("pageActive")){
+                        nowSizePos = s;
+                        break;
+                    }
+                }
+                size = parseInt(size) + 1;
+                var pageData = {
+                    "pageNo":size,
+                    "pageSize":20
+                };
+                getNews(pageData);
+                var pageList = '';
+                var lastLi = $(".pageNum li:eq(3) span").html();
+                if(lastLi == totalPage){
+                    $(".pageNum li span").removeClass("pageActive");
+                    nowSizePos++;
+                    $(".pageNum li").eq(nowSizePos).find("span").addClass("pageActive");
+                }else {
+                    for(var pageNum=number;pageNum<=totalPage;pageNum++){
+                        pageList += '<li><span>'+pageNum+'</span></li>'
+                    }
+                    $(".pageNum").html(pageList);
+                    $(".pageNum li").eq(nowSizePos).find("span").addClass("pageActive");
+                }
+
+            });
+
+            //上一页
+            $(".prePage").click(function () {
+                var size = $(".pageActive").html();
+                number = $(".pageNum li:eq(0) span").html();
+                number --;
+                if(size == 1){
+                    return;
+                }
+                var ul = $(".pageNum li");
+                var nowSizePos;//色块当前位置
+                for(var s=0;s<ul.length;s++){
+                    var node = $(".pageNum li").eq(s).find("span");
+                    if(node.hasClass("pageActive")){
+                        nowSizePos = s;
+                        break;
+                    }
+                }
+                size = parseInt(size) - 1;
+                var pageData = {
+                    "pageNo":size,
+                    "pageSize":20
+                };
+                getNews(pageData);
+                var pageList = '';
+                var lastLi = $(".pageNum li:eq(0) span").html();
+                if(lastLi == 1){
+                    $(".pageNum li span").removeClass("pageActive");
+                    nowSizePos--;
+                    $(".pageNum li").eq(nowSizePos).find("span").addClass("pageActive");
+                }else {
+                    for(var pageNum=number;pageNum<=totalPage;pageNum++){
+                        pageList += '<li><span>'+pageNum+'</span></li>'
+                    }
+                    $(".pageNum").html(pageList);
+                    $(".pageNum li").eq(nowSizePos).find("span").addClass("pageActive");
+                }
+
+            });
+
+			//具体页数
+            function detailSize() {
+                $(".pageNum li span").click(function (e) {
+                    var size = $(this).html();
+                    var pageData = {
+                        "pageNo":size,
+                        "pageSize":20
+                    };
+                    getNews(pageData);
+                    $(".pageNum li span").removeClass("pageActive");
+                    $(this).addClass("pageActive");
+                })
+            }
+
+
+
+        })
+
+	</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

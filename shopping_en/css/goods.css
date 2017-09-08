@@ -1,0 +1,152 @@
+
+@charset "utf-8";
+body{
+    padding-bottom: 300px;
+}
+body > h2 {
+    width: 1200px;
+    margin: 24px auto 10px;
+    line-height: 40px;
+}
+body > h2 a {
+    font-size: 14px;
+    color: #999999;
+    margin-right: 4px;
+}
+body > h2 span {
+    font-size: 14px;
+}
+.wraps {
+    width: 1200px;
+    margin: 0 auto 20px;
+    padding: 30px 20px 20px;
+    background: #fff;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+.wraps > h2 {
+    height: 38px;
+    line-height: 38px;
+    border-bottom: 1px solid #ccc
+}
+.wraps > h2 span {
+    float: left;
+    font-size: 12px;
+    margin-right: 20px;
+}
+.wraps > h2 em {
+    float: left;
+    font-size: 12px;
+    margin-right: 20px;
+    padding-right:14px;
+    cursor: pointer;
+}
+/*.wraps > h2 em:nth-child(2) {*/
+    /*background: #fff;*/
+/*}*/
+.wraps .list {
+    width: 100%;
+    padding: 20px 0 0;
+}
+.wraps .goodsLists {
+    width: 1200px;
+}
+.wraps .goodsLists li {
+    float: left;
+    width: 216px;
+    height: 284px;
+    padding:10px 10px 20px;
+    margin: 0 20px 20px 0;
+    /*border: 1px solid #eee;*/
+    cursor: pointer;
+}
+.navT a{
+    color:#333;
+}
+.wraps .goodsLists li img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    background: #eee;
+}
+.wraps .goodsLists li h2 {
+    font-size: 12px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: keep-all;
+    white-space: nowrap;
+}
+.wraps .goodsLists li div {
+    /*padding-left: 10px;*/
+}
+.wraps .goodsLists li div strong {
+    font-size: 14px;
+    color: #d0011b
+}
+.wraps .goodsLists li div span {
+    font-size: 12px;
+    color: #ccc;
+    float: right;
+}
+.wraps .goodsLists li div em {
+    font-size: 12px;
+    color: #ccc;
+    text-decoration: line-through;
+}
+
+.goodsLists li:hover{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+.goodsLists li{
+    position: relative;
+}
+.goodsMoney{
+    position: absolute;
+    width: calc(100% - 20px);
+    bottom: 20px;
+}
+/*翻页*/
+.orderGroup{
+    overflow: hidden;
+    margin:20px 0;
+}
+.orderGroup>p{
+    margin-right: 15px;
+}
+.prePage,.nextPage{
+    width: 60px;
+    height: 24px;
+    text-align: center;
+    line-height: 22px;
+    background-color: #ffffff;
+    border: solid 1px #eeeeee;
+    margin-left: 10px;
+}
+.orderByList{
+    max-width: 204px;
+}
+.orderByList>li{
+    float: left;
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    line-height: 22px;
+    background-color: #ffffff;
+    border: solid 1px #eeeeee;
+    cursor: default;
+}
+.orderByList>li.pageActive,.orderByList>li:hover{
+    background-color: #ae846c;
+    color:#FFF;
+    border: none;
+}
+
+
+
+
+
+
+
+

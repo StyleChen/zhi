@@ -1,0 +1,177 @@
+@charset "utf-8";
+.wraps {
+    width: 1200px;
+    margin: 30px auto;
+}
+.navTitle{
+    margin-left: 20px !important;
+}
+.list > div.clearfix  {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.wraps > div > h2 {
+    font-size: 16px;
+    margin: 20px 0 0;
+    font-weight:bold;
+    padding-bottom: 10px;
+}
+.wraLeft li {
+    padding-left: 30px;
+    color: #ae846c;
+    margin-top: 10px;
+}
+.list > h2 {
+    border-bottom: 1px solid #eee
+}
+.list > div.clearfix  span {
+    float: left;
+    width: 54px;
+    line-height: 40px;
+    margin-right: 60px;
+    text-align: center;
+}
+.list > div.clearfix  > span:nth-child(1) {
+    margin-right: 348px;
+}
+.list > div.clearfix  > span:last-child{
+    margin-right: 0
+}
+.wraps dl {
+    float: left;
+    width: 400px;
+}
+.wraps dl dt {
+    float: left;
+    width: 64px;
+    height: 64px;
+    margin-right: 5px;
+    background: #ccc;
+}
+.wraps dl dd {
+    float: left;
+    width: 280px;
+}
+.wraps dl dd h2 {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.wraps dl dd strong, dl dd em {
+    font-size: 12px;
+    color: #ccc
+}
+.list li span {
+    float: left;
+    width: 54px;
+    line-height:60px;
+    margin-right: 60px;
+    text-align: center;
+}
+.list li span.payAction{
+    line-height: 20px;
+    margin-top: 10px;
+}
+.list span:last-child {
+    /*margin-right: 0*/
+}
+.orderGoodsList,.orderGoodsList>li{
+    overflow: hidden;
+    float: left;
+    width: 630px;
+}
+.orderGoodsList>li{
+    margin-bottom: 5px;
+}
+.orderLists>li {
+    /*padding-bottom: 14px;*/
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee
+}
+.list li > em {
+    float: left;
+    width: 60px;
+    height: 30px;
+    color: #fff;
+    line-height: 28px;
+    border: 1px solid #ae846c;
+    border-radius: 4px;
+    background: #ae846c;
+    text-align: center;
+    margin-top: 16px;
+    cursor: pointer;
+
+}
+.list li > h2 {
+    height: 30px;
+    padding-left: 10px;
+    background: #f8f8f8;
+    line-height:30px;
+    margin-bottom: 10px;
+}
+.wraps > div {
+    float: left;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+.wraLeft {
+    position: relative;
+    width: 200px;
+    height: 460px;
+    background: #fff;
+    margin-right: 20px;
+}
+.bg {
+    position: absolute;
+    left: -79px;
+    bottom: -34px;
+    width: 214px;
+    height: 214px;
+    background: url("../images/1.png") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.wraRight {
+    width: 960px;
+    background: #fff;
+    padding: 0 20px;
+    min-height: 460px;
+}
+
+.orderLists{
+    /*min-height:332px;*/
+}
+/*翻页*/
+.orderGroup{
+    overflow: hidden;
+    margin:20px 0;
+}
+.orderGroup>p{
+    margin-right: 15px;
+}
+.prePage,.nextPage{
+    width: 60px;
+    height: 24px;
+    text-align: center;
+    line-height: 22px;
+    background-color: #ffffff;
+    border: solid 1px #eeeeee;
+    margin-left: 10px;
+}
+.orderByList{
+    max-width: 204px;
+}
+.orderByList>li{
+    float: left;
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    line-height: 22px;
+    background-color: #ffffff;
+    border: solid 1px #eeeeee;
+    cursor: default;
+}
+.orderByList>li.pageActive,.orderByList>li:hover{
+    background-color: #ae846c;
+    color:#FFF;
+    border: none;
+}

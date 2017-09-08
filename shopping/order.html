@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale1.0">
+	<title>纸匠商城-订单信息</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="shortcut icon" href="../images/logo.ico">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/order.css">
+	<script src="../js/jquery-2.2.2.min.js"></script>
+	<script src="js/public.js"></script>
+
+</head>
+<body>
+	<div class="headerContainer"></div>
+	<div class="wraps">
+		<!-- 收货地址管理 -->
+		<h2>1.填写收货地址 <span class="addAddress">新增收货地址</span></h2>
+		<ul class="addressList">
+		</ul>
+		<!-- 选择支付方式 -->
+		<h2>2.选择支付方式</h2>
+		<div class="pay">
+			<p>支持以下支付平台进行在线支付：</p>
+			<ul class="payment">
+				<li class="alipay payment-active"><em></em><div></div></li>
+				<li class="wechat"><em></em><div></div></li>
+			</ul>
+			<p>快捷支付支持支付宝快捷支付，无需开通网银，有卡就能付（需有支付宝账户）：</p>
+			<ul class="payment">
+				<li class="jianshe"><em></em><div></div></li>
+				<li class="zhongxin"><em></em><div></div></li>
+				<li class="pingan"><em></em><div></div></li>
+				<li class="xingye"><em></em><div></div></li>
+				<li class="gongshang"><em></em><div></div></li>
+			</ul>
+		</div>
+		<h2>3.商品清单</h2>
+		<div class="list">
+			<h2>
+				<span>商品名称</span><span>单价</span><span>数量</span>
+				<span>小计</span>
+			</h2>
+
+			<div class="goodsShow">
+				<div class="clearfix">
+					<dl>
+						<dt><img src="" alt=""></dt>
+						<dd>
+							<h2>纸匠纸品现代瓦楞纸家居饰品生肖摆件马3D拼装创意办公室桌面摆件</h2>
+							<strong>颜色分类：</strong>
+							<em>纸原色</em>
+						</dd>
+					</dl>
+					<span>￥78.0</span>
+					<span>1</span>
+					<span>小计</span>
+				</div>
+			</div>
+			<div class="clearfix">
+				<div class="wenben"><textarea name="" id="" cols="30" rows="10" placeholder="输入订单留言，字数控制在100字以内"></textarea></div>
+				<div class="huizong clearfix">
+					<div>
+						<ul>
+							<li><span>商品件数：</span><span class="goodsNum"> 2件</span></li>
+							<li><span>商品总金额(不含运费)：</span> <span class="lastTotal">￥458.00</span></li>
+							<li><span>运费：</span> <span>￥0.00</span></li>
+							<li><span>优惠：</span> <span>￥0.00</span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="summary">
+			<div><strong class="lastTotal">￥456</strong><span>应付金额：</span></div>
+			<h2>寄送至：<span class="addressconfirm"></span></h2>
+		</div>
+		<div>
+			<div class="btn">提交订单</div>
+		</div>
+				
+	</div>
+	<div class="remak">
+		<div class="">
+			<h2>新增收货人信息<strong></strong></h2>
+			<div class="information">
+				<form class="form" action="#">
+					<ul class="information_ul">
+						<li>
+							<h3><em>*</em><span>收货人</span></h3>
+							<div><input class="userName" type="text" maxlength="6" placeholder="收货人姓名"></div>
+						</li>
+						<li>
+							<h3><em>*</em><span>手机</span></h3>
+							<div class="tel"><input class="phone" type="text" placeholder="请输入手机号"></div>
+						</li>
+						<li>
+							<h3><em>*</em><span>所在地区</span></h3>
+							<div class="loca">
+								<input type="hidden" name="">
+								<div class="provi-box">
+									<div class="provis">请选择（省）</div>
+									<div class="provi"></div>
+									<i></i>
+								</div>
+								<div class="citybox">
+									<div class="citys">请选择（市）</div>
+									<div class="city"></div>
+									<i></i>
+								</div>
+								<div class="areabox">
+									<div class="areas">请选择（区/县）</div>
+									<div class="area"></div>
+									<i></i>
+								</div>
+							</div>
+						</li>
+						<li>
+							<h3><em>*</em><span>详细地址</span></h3>
+							<div class="detailedAddressInput"><input class="detailedAddress" type="text" placeholder="建议填写详细的收货地址"></div>
+						</li>
+						<li>
+							<h3><span>邮编</span></h3>
+							<div><input class="zipCode" type="number" name="email" placeholder="000000"></div>
+						</li>
+					</ul>
+				</form>
+						
+				<div class="submit">保存地址</div>
+			</div>
+		</div>
+	</div>
+	<footer></footer>
+	<script src="js/linkage.js"></script>
+	<script src="js/order.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>纸匠文化-纸玩大赛 - 纸家具_益智玩具_纸玩_纸匠</title>
+	<meta name="description" content="纸匠目前已成功在晋江举办了两届的纸玩大赛，为广大少年儿童搭建展示自我舞台，培养了他们的环保意识，让儿童在玩乐中成长"/>
+	<meta name="keywords" content="纸玩大赛,晋江纸玩大赛,变废为宝,低碳环保"/>
+	<link rel="shortcut icon" href="images/logo.ico">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<!-- Salvattore -->
+	<link rel="stylesheet" href="css/salvattore.css">
+	<link rel="stylesheet" href="css/all.css">
+	<style>
+		body,html{
+			background-color: #f4f4f4;
+		}
+		a:hover{
+			text-decoration: none;
+		}
+		p,ul{
+			margin: 0;
+			padding: 0;
+		}
+		.bd-wrap{
+			width: 100%;
+			height: auto;
+			position: relative;
+			background-color: #f4f4f4;
+		}
+		.bd-wrap img{
+			width: 100%;
+			height: auto;
+		}
+		.bd-hr{
+			width: 100%;
+			height: 2px;
+			background-color: #000;
+			margin: 12px 0;
+		}
+		.first-title span{
+			font-weight: bold;
+			font-size: 16px;
+		}
+		
+		.top-border{
+			width: 80%;
+			height: 2px;
+			background-color: #ddd;
+			margin: 20px auto;
+		}
+		.row-info{
+			height: 30px;
+		}
+		.col-expo img{
+			width: 100%;
+			height: auto;
+		}
+		.expo-title{
+			height: 30px;
+		}
+		.expo-title p{
+			height: 30px;
+			width: 7px;
+			background-color: #aa7322;
+			float: left;
+		}
+		.expo-title span{
+			float: left;
+			line-height: 30px;
+			margin-left: 10px;
+		}
+		.expo-title a{
+			float: right;
+			line-height: 30px;
+			font-weight: normal;
+			color: rgba(0, 0, 0, 0.54);
+		}
+		.expo-container{
+			position: relative;
+			background-color: #fff;
+			width: 90%;
+		}
+		.first-expo{
+			margin: 20px auto;
+		}
+		.hd-title{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+		}
+		.hd-title p{
+			font-size: 3.43rem;
+			font-weight: 500;
+			color: #fff;
+		}
+		.hd-title span{
+			font-size: 1.71rem;
+			color: #fff;
+			display: block;
+			text-align: center;
+		}
+		.image-popup{
+			display: block;
+		}
+		.image-popup:hover{
+			display: block;
+			background-color: #fff;
+			opacity: 0.5;
+		}
+		.image-popup:focus{
+			outline:none;
+		}
+		footer{
+			margin-top: 50px;
+			background-color: #fff;
+			padding: 20px;
+			overflow: hidden;
+			position: relative;
+			padding-bottom: 120px;
+		}
+		.ft-box{
+			text-align: center;
+			position: relative;
+			left: 50%;
+			float: left;
+		}
+		.ft-logo{
+			position: relative;
+			right: 50%;
+		}
+		.ft-text{
+			margin-top: 30px;
+			position: relative;
+			right: 50%;
+		}
+		.last-list{
+			overflow: hidden;
+			position: relative;
+			right: 50%;
+			margin-top: 30px;
+		}
+		.last-list li{
+			overflow: hidden;
+			float: left;
+			border-right: 1px solid #000;
+		}
+		.last-list li a{
+			float: left;
+			color: #000;
+			text-decoration: none;
+			padding: 0 10px;
+			line-height: 15px;
+		}
+		.list-icon{
+			overflow: hidden;
+			position: relative;
+			right: 10%;
+			margin-top: 20px;
+		}
+		.list-icon li{
+			float: left;
+		}
+		.bottom-border{
+			height: 1px;
+			background-color: rgba(0, 0, 0, 0.12);
+			width: 80%;
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			transform: translate(-50%,0);
+			margin-bottom: 100px;
+		}
+		.foot-text{
+			position: absolute;
+			bottom: 0;
+			text-align: center;
+			left: 50%;
+			transform: translate(-50%,0);
+			margin-bottom: 20px;
+		}
+		.video-container{
+			width: 90%;
+			margin-top: -20%;
+			position: relative;
+			background-color: #fff;
+			margin-bottom: 20px;
+		}
+		.video-cols{
+			height: 60px;
+		}
+		.video-cols p{
+			float: left;
+			color: rgba(0, 0, 0, 0.26);
+			line-height: 60px;
+		}
+		.top-title{
+			position: absolute;
+			top: 18%;
+			left: 13%;
+			border-top: solid 5px #fff;
+			border-bottom: solid 5px #fff;
+			width: 225px;
+		}
+		.top-title p{
+			font-size: 36px;
+			color: #fff;
+			font-weight: 400;
+		}
+		.top-title span{
+			font-size: 20px;
+			color: #fff;
+			font-weight: 300;
+		}
+		.animate-box{
+			position: relative;
+			margin-top: 20px;
+		}
+
+		.col-expo{
+			padding:0 8px;
+		}
+		.expo-row {
+			margin:0 -4px 80px;
+		}
+	</style>
+</head>
+<body>
+
+<div class="bd-wrap">
+	<img src="images/video-banner.png" alt="手工DIY">
+	<div class="top-title">
+		<p>纸玩大赛</p>
+		<span>PAPER MAKER MATCH</span>
+	</div>
+</div>
+
+<div class="container video-container">
+	<div class="row">
+		<div class="col-sm-12 video-cols">
+			<p><a href="https://www.papermaker.cn">纸匠&nbsp;&nbsp;&nbsp;/&nbsp;</a></p>
+			<div class="nav-p">
+				<a href="contest.html">&nbsp;&nbsp;&nbsp;纸匠文化 &nbsp;<span class="sanjiao"></span> &nbsp;&nbsp;/ </a>
+				<ul class="nav-ul">
+					<li><a href="culture_about.html">纸匠文化</a></li>
+					<li><a href="contest.html">纸玩大赛</a></li>
+					<li><a href="expo.html">展览展示</a></li>
+				</ul>
+			</div>
+			<p style="color: #000;">&nbsp;&nbsp;&nbsp;纸玩大赛 </p>
+		</div>
+	</div>
+</div>
+
+
+<div class="container expo-container">
+	<div class="row expo-row first-expo">
+		<!--晋江市首届纸玩大赛初赛于11月6日在晋江万达广场举办，近千名幼儿园及小学在校生参与本次活动。11月13日， 182名进入决赛的选手在晋江婴童产业文创园一决高下。-->
+		<!--2017年4月29日—5月1日，由晋江团市委、梅岭街道办主办，梅岭街道团工委、梅岭街道少工委、福建纸匠文化科技股份有限公司、晋江万达广场共同承办的晋江市纸玩大赛成功举办。-->
+	</div>
+</div>
+	<footer>
+	   </footer>
+
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/salvattore.min.js"></script>
+	<!--<script src="js/main.js"></script>-->
+<script src="js/ajax.js"></script>
+<script>
+    $(function () {
+
+        var json = ajax("get","culture/list",function (res) {
+            console.log(res);
+            var data = res.data.cultureGameList;
+            for(var d=0;d<data.length;d++){
+                var arrayImg = data[d].miniImage.split("|");
+                var fullImage = data[d].fullImage.split("|");
+                var content = "";
+
+                for (var i = 1; i < arrayImg.length; i++) {
+                    content += '<div class="col-expo col-sm-6 col-md-4">' +
+                        ' <div class="animate-box"><div class="translatePos animated"></div>' +
+                        ' <a href="' + fullImage[i] + '" data-group="1" class="galleryItem">' +
+                        '<img src="' + arrayImg[i] + '" alt="手工DIY"></a> </div> </div>';
+
+                }
+                var html = '<div class="col-sm-12"> ' +
+                    '<div class="bd-text">' +
+                    ' <h3 class="text-center">'+data[d].name+'</h3> ' +
+                    '<p>'+data[d].content+'</p> ' +
+                    '</div> ' +
+                    '</div> ' +
+                    '<div class="row expo-row expo-row-ajax"> ' + content +
+                    '</div>';
+                $(".first-expo").append(html);
+			}
+
+
+
+            $(".loading").fadeOut(100);
+			slideRight($(".translatePos"));
+
+
+            var groups = {};
+            $('.galleryItem').each(function() {
+                var id = parseInt($(this).attr('data-group'), 10);
+
+                if(!groups[id]) {
+                    groups[id] = [];
+                }
+
+                groups[id].push( this );
+            });
+
+
+            $.each(groups, function() {
+
+                $(this).magnificPopup({
+                    type: 'image',
+                    closeOnContentClick: true,
+                    closeBtnInside: false,
+                    gallery: { enabled:true }
+                })
+
+            });
+        });
+
+
+
+
+
+
+    })
+
+</script>
+</body>
+</html>
+
+
+
+
+
+
+

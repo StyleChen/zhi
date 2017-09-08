@@ -1,0 +1,248 @@
+
+.bd-text p{
+    text-indent:2rem;
+}
+.translatePos{
+    display: block;
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+.translate{
+    -webkit-animation-name: translate;
+    animation-name: translate;
+}
+
+@-webkit-keyframes  translate {
+    from {
+        width: 100%;
+    }
+
+    to {
+        width: 0;
+    }
+
+}
+@keyframes  translate {
+    from {
+        width: 100%;
+    }
+
+    to {
+        width: 0;
+    }
+
+}
+li {
+    list-style: none;
+}
+.loading{
+    position:fixed;top: 0;left: 0;width: 100vw;height: 100vh;background-color: #EAC79D;
+}
+a:hover,a:focus{
+    text-decoration: none;
+}
+.video-cols>p,.top-title p{
+    text-indent:0;
+}
+.video-cols>p>a{
+    color:rgba(0,0,0,0.26) !important;
+}
+
+.about-container,.container{
+    width: 90%;
+    max-width:1440px !important;
+    /*min-width:1200px !important;*/
+}
+.bd-wrap{
+    /*min-width:1366px;*/
+    min-height:695px;
+}
+p{
+    text-indent: 2rem;
+    line-height: 1.6;
+}
+
+.bd-text p{
+    margin-bottom: 15px;
+}
+.bd-text{
+    margin-bottom: 0 !important;
+}
+p.bd-text{
+    margin-bottom: 20px !important;
+}
+
+body{
+    /*min-width:1366px !important;*/
+}
+.video-cols{
+    background: url("../images/copy-8.png") no-repeat 10px center;
+    padding-left:40px;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+    font-size: 14px;
+    line-height: 2.29;
+}
+.container:nth-child(3) .showA{
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+.contact-active{
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+.nav-p{
+    float: left;
+    color: rgba(0, 0, 0, 0.26);
+    line-height: 60px;
+    position: relative;
+}
+.nav-p a{
+    color: rgba(0,0,0,0.26);
+}
+.nav-ul{
+    position: absolute;
+    display: none;
+    top: 60px;
+    z-index:100;
+    background: #fff;
+    width: 90px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    line-height: 2.29;
+    padding:10px 0 10px 12px;
+}
+.nav-ul li a{
+    display: inline-block;
+    position: relative;
+    height: 100%;
+}
+.nav-ul li a:after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0;
+    -webkit-transition: width .5s;
+    -moz-transition: width .5s;
+    -ms-transition: width .5s;
+    -o-transition: width .5s;
+    transition: width .5s;
+}
+.nav-ul li a:hover{
+    color:#000;
+}
+.nav-ul li a:hover:after{
+    /*width: 100%;*/
+    background: #000;
+}
+.sanjiao{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border:5px solid transparent;
+    border-top-color:rgba(0,0,0,0.26);
+}
+.close{
+    width: 24px;
+    height: 24px;
+    background: url("../images/icon-gray-r-close.png") no-repeat center;
+    opacity: .5;
+}
+.close:hover{
+    opacity:1;
+}
+
+.top-title{
+    top: 18% !important;
+    left: 13% !important;
+}
+.video-container{
+    margin-top: -20% !important;
+}
+
+
+
+
+
+
+
+
+/*footer样式*/
+footer{
+    margin-top: 50px;
+    background-color: #fff;
+    padding: 20px;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 120px;
+}
+.ft-box{
+    text-align: center;
+    position: relative;
+    left: 50%;
+    float: left;
+}
+.ft-logo{
+    position: relative;
+    right: 50%;
+}
+.ft-text{
+    margin-top: 30px;
+    position: relative;
+    right: 50%;
+}
+.last-list{
+    overflow: hidden;
+    position: relative;
+    right: 50%;
+    margin-top: 30px;
+}
+.last-list li{
+    overflow: hidden;
+    float: left;
+    border-right: 1px solid #000;
+}
+.last-list li a{
+    float: left;
+    color: #000;
+    text-decoration: none;
+    padding: 0 10px;
+    line-height: 15px;
+}
+.list-icon{
+    overflow: hidden;
+    position: relative;
+    right: 15%;
+    margin-top: 20px;
+}
+.list-icon li{
+    float: left;
+}
+.bottom-border{
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+    margin-bottom: 100px;
+}
+.foot-text{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%,0);
+    margin-bottom: 20px;
+}
+/*footer样式*/

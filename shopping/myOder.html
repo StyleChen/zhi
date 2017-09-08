@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>纸匠商城</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="shortcut icon" href="../images/logo.ico">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/myoder.css">
+    <script src="../js/jquery-2.2.2.min.js"></script>
+    <script src="js/public.js"></script>
+    <script src="js/myOrder.js"></script>
+</head>
+<body>
+    <div class="headerContainer"></div>
+    <div class="wraps clearfix">
+        <div class="wraLeft">
+            <h2 class="navTitle">全部功能</h2>
+            <ul class="navUl">
+                <li>我的订单</li>
+            </ul>
+            <div class="bg"></div>
+        </div>
+        <div class="wraRight list">
+            <h2>我的订单</h2>
+            <div class="clearfix">
+                <span>商品名称</span><span>单价</span><span>数量</span>
+                <span>商品操作</span><span>交易状态</span><span>交易操作</span>
+            </div>
+            <ul class="orderLists">
+                <li style="margin-top: 30px;border: none;text-align: center;">你还没有相关订单</li>
+            </ul>
+            <div class="orderGroup">
+                <p class="left">共 <span class="allOrder">1</span> 页</p>
+                <p class="left">当前第 <span class="nowPage">1</span> 页</p>
+                <div class="orderBy right">
+                    <button class="left prePage">上一页</button>
+                    <ul class="orderByList left">
+                        <li class="pageActive">1</li>
+                    </ul>
+                    <button class="left nextPage">下一页</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer></footer>
+</body>
+</html>

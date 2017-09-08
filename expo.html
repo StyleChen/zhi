@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>纸匠文化-展览展示 - 纸家具_益智玩具_纸玩_纸匠</title>
+	<meta name="description" content="纸匠参加的展览展会有第118届广交会，2016中国童书博览会、2016厦门博览会、第72届中国教育装备展示会等。"/>
+	<meta name="keywords" content="中国教育装备展示会,厦门博览会,广交会,童书博览会"/>
+	<link rel="shortcut icon" href="images/logo.ico">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- <link rel="stylesheet" href="css/chromagallery.min.css"> -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<!-- Salvattore -->
+	<link rel="stylesheet" href="css/salvattore.css">
+	<link rel="stylesheet" href="css/all.css">
+	<!-- Theme Style -->
+	
+	<style>
+		body,html{
+			background-color: #f4f4f4;
+		}
+		a:hover{
+			text-decoration: none;
+		}
+		p,ul{
+			margin: 0;
+			padding: 0;
+		}
+		.bd-wrap{
+			width: 100%;
+			height: auto;
+			position: relative;
+			background-color: #f4f4f4;
+		}
+		.bd-wrap img{
+			width: 100%;
+			height: auto;
+		}
+		.bd-hr{
+			width: 100%;
+			height: 2px;
+			background-color: #000;
+			margin: 12px 0;
+		}
+		.first-title span{
+			font-weight: bold;
+			font-size: 16px;
+		}
+		.row-info{
+			height: 30px;
+		}
+		.expo-row{
+			padding: 5px;
+		}
+		.col-expo img{
+			width: 100%;
+			height: auto;
+		}
+		.expo-title{
+			height: 30px;
+			margin:10px auto;
+		}
+		.expo-title p{
+			height: 30px;
+			width: 7px;
+			background-color: #aa7322;
+			float: left;
+		}
+		.expo-title span{
+			float: left;
+			line-height: 30px;
+			margin-left: 10px;
+		}
+		.expo-title a{
+			float: right;
+			line-height: 30px;
+			font-weight: normal;
+			color: rgba(0, 0, 0, 0.54);
+		}
+		.expo-container{
+			position: relative;
+			width: 90%;
+			background-color: #fff;
+			padding-bottom: 90px;
+		}
+		.first-expo{
+			margin-top: 20px;
+		}
+		.hd-title{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+		}
+		.hd-title p{
+			font-size: 3.43rem;
+			font-weight: 500;
+			color: #fff;
+		}
+		.hd-title span{
+			font-size: 1.71rem;
+			color: #fff;
+			display: block;
+			text-align: center;
+		}
+		.image-popup{
+			display: block;
+		}
+		.image-popup:hover{
+			display: block;
+			background-color: #fff;
+			opacity: 0.5;
+		}
+		.image-popup:focus{
+			outline:none;
+		}
+		.top-title{
+			position: absolute;
+			top: 180px;
+			left: 180px;
+			border-top: solid 5px #fff;
+			border-bottom: solid 5px #fff;
+			width: 235px;
+		}
+		.top-title p{
+			font-size: 36px;
+			color: #fff;
+			font-weight: 400;
+		}
+		.top-title span{
+			font-size: 20px;
+			color: #fff;
+			font-weight: 300;
+		}
+		footer{
+			margin-top: 50px;
+			background-color: #fff;
+			padding: 20px;
+			overflow: hidden;
+			position: relative;
+			padding-bottom: 120px;
+		}
+		.ft-box{
+			text-align: center;
+			position: relative;
+			left: 50%;
+			float: left;
+		}
+		.ft-logo{
+			position: relative;
+			right: 50%;
+		}
+		.ft-text{
+			margin-top: 30px;
+			position: relative;
+			right: 50%;
+		}
+		.last-list{
+			overflow: hidden;
+			position: relative;
+			right: 50%;
+			margin-top: 30px;
+		}
+		.last-list li{
+			overflow: hidden;
+			float: left;
+			border-right: 1px solid #000;
+		}
+		.last-list li a{
+			float: left;
+			color: #000;
+			text-decoration: none;
+			padding: 0 10px;
+			line-height: 15px;
+		}
+		.list-icon{
+			overflow: hidden;
+			position: relative;
+			right: 10%;
+			margin-top: 20px;
+		}
+		.list-icon li{
+			float: left;
+		}
+		.bottom-border{
+			height: 1px;
+			background-color: rgba(0, 0, 0, 0.12);
+			width: 80%;
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			transform: translate(-50%,0);
+			margin-bottom: 100px;
+		}
+		.foot-text{
+			position: absolute;
+			bottom: 0;
+			text-align: center;
+			left: 50%;
+			transform: translate(-50%,0);
+			margin-bottom: 20px;
+		}
+		.video-container{
+			width: 90%;
+			margin-top: -245px;
+			position: relative;
+			background-color: #fff;
+			margin-bottom: 20px;
+		}
+		.video-cols{
+			height: 60px;
+		}
+		.video-cols p{
+			float: left;
+			color: rgba(0, 0, 0, 0.26);
+			line-height: 60px;
+		}
+		.expo-row-ajax li{
+			overflow: hidden;
+		}
+		.ovh{
+			clear: both;
+		}
+		.ovh:after{
+			display: block;
+			content: '';
+			clear: both;
+		}
+		.col-expo-ajax:after{
+			display: block;
+			content: '';
+			clear: both;
+		}
+		.expo-row-ajax li{
+			margin-top: 20px;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="bd-wrap">
+		<img src="images/video-banner.png" alt="纸匠官网">
+		<div class="top-title">
+			<p>展览展示</p>
+			<span>PAPER MAKER EXHIBITION</span>
+		</div>
+	</div>
+
+	<div class="container video-container">
+			<div class="row">
+				<div class="col-sm-12 video-cols">
+					<p><a href="https://www.papermaker.cn">纸匠&nbsp;&nbsp;&nbsp;/&nbsp;</a></p>
+					<div class="nav-p">
+						<a href="expo.html">&nbsp;&nbsp;&nbsp;纸匠文化 &nbsp;<span class="sanjiao"></span> &nbsp;&nbsp;/ </a>
+						<ul class="nav-ul">
+							<li><a href="culture_about.html">纸匠文化</a></li>
+							<li><a href="contest.html">纸玩大赛</a></li>
+							<li><a href="expo.html">展览展示</a></li>
+						</ul>
+					</div>
+					<p style="color: #000;">&nbsp;&nbsp;&nbsp;展览展示  </p>
+				</div>
+			</div>
+		</div>
+
+	<div class="container expo-container">
+		<!--<div class="row expo-row first-expo">
+			<div class="col-md-12">
+				<div class="expo-title">
+					<p></p>
+					<span>2016年厦门文博会</span>
+					<a href="#">更多>></a>
+				</div>
+			</div>
+		</div>
+		<div class="row expo-row">
+			<div class="col-expo col-sm-6 col-md-4">
+				<div class="animate-box">
+					<a href="images/expo.jpg" class="image-popup fh5co-board-img"><img src="images/expo.jpg" alt="纸匠官网" ></a>
+				</div>
+			</div>
+			<div class="col-expo col-sm-6 col-md-4">
+				<div class="animate-box">
+					<a href="images/expo2.jpg" class="image-popup fh5co-board-img"><img src="images/expo2.jpg" alt="纸匠官网" ></a>
+				</div>
+			</div>
+			<div class="col-expo col-sm-6 col-md-4">
+				<div class="animate-box">
+					<a href="images/expo3.jpg" class="image-popup fh5co-board-img"><img src="images/expo3.jpg" alt="纸匠官网" ></a>
+				</div>
+			</div>
+		</div>
+		<div class="row expo-row">
+			<div class="col-md-12">
+				<div class="expo-title">
+					<p></p>
+					<span>广交会</span>
+					<a href="#">更多>></a>
+				</div>
+			</div>
+		</div>
+		<div class="row expo-row">
+			<div class="col-expo col-sm-6 col-md-4">
+				<div class="animate-box">
+					<a href="images/expo-img.jpg" class="image-popup fh5co-board-img"><img src="images/expo-img.jpg" alt="纸匠官网" ></a>
+				</div>
+			</div>
+			<div class="col-expo col-sm-6 col-md-4">
+				<div class="animate-box">
+					<a href="images/expo-img2.jpg" class="image-popup fh5co-board-img"><img src="images/expo-img2.jpg" alt="纸匠官网" ></a>
+				</div>
+			</div>
+			<div class="col-expo col-sm-6 col-md-4">
+				<div class="animate-box">
+					<a href="images/expo-img3.jpg" class="image-popup fh5co-board-img"><img src="images/expo-img3.jpg" alt="纸匠官网" ></a>
+				</div>
+			</div>
+		</div>
+		<div class="row expo-row">
+			<div class="col-md-12">
+				<div class="expo-title">
+					<p></p>
+					<span>童书博览会</span>
+					<a href="#">更多>></a>
+				</div>
+			</div>
+		</div>
+		<div class="row expo-row mygallery">
+			<div class="col-expo col-sm-6 col-md-4">
+				<div class="animate-box">
+					<a href="images/expoimg.jpg" class="image-popup fh5co-board-img"><img src="images/expoimg.jpg" alt="纸匠官网" ></a>
+				</div>
+			</div>
+			<div class="col-expo col-sm-6 col-md-4">
+				<div class="animate-box">
+					<a href="images/expoimg2.jpg" class="image-popup fh5co-board-img"><img src="images/expoimg2.jpg" alt="纸匠官网" ></a>
+				</div>
+			</div>
+			<div class="col-expo col-sm-6 col-md-4">
+				<div class="animate-box">
+					<a href="images/expoimg3.jpg" class="image-popup fh5co-board-img"><img src="images/expoimg3.jpg" alt="纸匠官网" ></a>
+				</div>
+			</div>
+		</div>-->
+		<ul class="expo-row-ajax">
+			<!--<li>
+						<div class="col-md-12 expo-title">
+							<p></p>
+							<span>2016年厦门文博会</span>
+							<a href="#">更多>></a>
+						</div>
+
+				<div class="col-expo-ajax">
+					<div class="col-expo col-sm-6 col-md-4 col-xs-12">
+						<div class="animate-box">
+							<div class="translatePos animated"></div>
+							<a href="images/expo.jpg" class="image-popup fh5co-board-img">
+								<img src="images/expo.jpg" alt="纸匠官网" >
+							</a>
+						</div>
+					</div>
+				</div>
+			</li>-->
+		</ul>
+	</div>
+
+	<footer></footer>
+	
+    <script src="js/jquery-1.10.2.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<!-- Salvattore -->
+	<script src="js/salvattore.min.js"></script>
+	<!-- Main JS -->
+	<script src="js/main.js"></script>
+	<script src="js/ajax.js"></script>
+	<script>
+        $(function () {
+            var json = ajax("get","culture/list",function (res) {
+                var dataArray = res.data.cultureExpoList;
+                var html = '';
+                for(var i=0;i<dataArray.length;i++){
+                    var arrayImg = dataArray[i].image.split("|");
+                    var imageN = arrayImg.length > 4 ? 4 :arrayImg.length;
+                    var image = '';
+                	for(var t=1;t<imageN;t++){
+						image += '<div class="col-expo col-sm-6 col-md-4 col-xs-12"> <div class="animate-box"> <div class="translatePos animated"></div> <a href="'+arrayImg[t]+'" data-group="'+i+'" class="galleryItem"> <img src="'+arrayImg[t]+'" alt="纸匠官网" > </a> </div> </div>'
+					}
+                    html += '<li><div class="col-md-12 expo-title"> <p></p> <span>'+dataArray[i].name+'</span> <a onclick="readMore('+i+')" href="#">更多>></a> </div><div class="col-expo-ajax">'+image+'</div></li>';
+                }
+                $(".expo-row-ajax").html(html);
+				$(".loading").fadeOut(100);
+                slideRight($(".translatePos"));
+				images();
+               	var obj = JSON.stringify(res.data);
+               	localStorage.obj = obj;
+            });
+
+        });
+
+
+//        加载更多
+        	var imgNum = 5;
+            function readMore(index) {
+               var e = window.event;
+			   e.preventDefault();
+               e.stopPropagation();
+               var ob = JSON.parse(localStorage.obj);
+                var imageMore = ob.cultureExpoList[index].image.split("|");
+                console.log(imageMore)
+                var appendImg = '';
+                if(imageMore.length < imgNum){
+                    alert("不好意思，没有更多了！");
+                    return false;
+                }else {
+                    imgNum = imageMore.length + 1;
+                    for (var m=4;m<imageMore.length;m++){
+                        appendImg += '<div class="col-expo col-sm-6 col-md-4 col-xs-12"> <div class="animate-box"> <div class="translatePos animated"></div> <a href="'+imageMore[m]+'" class="image-popup fh5co-board-img"> <img src="'+imageMore[m]+'" alt="纸匠官网" > </a> </div> </div>'
+                    }
+                    var node = document.getElementsByClassName("col-expo-ajax");
+					var create = document.createElement("div");
+//                    document.createTextNode("Water")
+					create.innerHTML = appendImg;
+                    create.setAttribute("class","ovh");
+					node[index].appendChild(create);
+                    slideRight($(".translatePos"));
+                }
+
+            }
+
+	</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

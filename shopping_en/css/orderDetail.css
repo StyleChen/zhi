@@ -1,0 +1,208 @@
+body {
+    padding-bottom: 350px;
+}
+li,.wraps span {
+    font-size: 14px;
+}
+.information .information_ul {
+    padding-left: 0px;
+}
+.wraps > h2 {
+    height: 40px;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 40px;
+    color: #333333;
+    background-color: #eee;
+}
+.wraps > p {
+    padding-left: 20px;
+    font-size: 14px;
+    line-height:40px;
+}
+.wraps > p span {
+    padding-left: 10px;
+    font-size: 14px;
+    line-height:40px;
+}
+.wraps > p .danhao {
+    color: #4990e2;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+    color: #000;
+}
+.list > div {
+    padding-left: 20px;
+}
+.list > h2 {
+    height: 40px;
+    margin: 20px 0;
+    padding-left: 20px;
+    border-bottom: 2px solid #ccc
+}
+.list > h2 span {
+    float: left;
+    line-height: 40px;
+    margin-right: 172px;
+    font-size: 14px;
+}
+.list > h2 > span:nth-child(1) {
+    margin-right: 598px;
+}
+.list > h2 > span:last-child{
+    margin-right: 0
+}
+.wraps dl {
+    float: left;
+    width: 360px;
+    margin-right: 288px;
+}
+.wraps dl dt {
+    float: left;
+    width: 64px;
+    height: 64px;
+    margin-right: 10px;
+    background: #ccc;
+    border: 1px solid #eee;
+}
+.wraps dl dd {
+    float: left;
+    width: 277px;
+}
+.wraps dl dd h2 {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.wraps dl dd strong, dl dd em {
+    font-size: 12px;
+    color: #ccc
+}
+.wraps li {
+    margin-bottom: 20px;
+}
+.wraps li p {
+    margin-bottom: 5px;
+}
+
+.wraps p:nth-child(4) {
+    background: url("../../shopping/images/more.png") no-repeat 1136px 10px;
+    margin-bottom: 20px;
+    cursor:pointer;
+}
+.orderList span {
+    float: left;
+    width: 40px;
+    margin-right: 158px;
+    text-align: center;
+    line-height: 64px;
+}
+.orderList span:last-child {
+    margin-right: 0
+}
+.orderList li{
+    padding-bottom: 14px;
+    margin-bottom: 30px;
+    border-bottom: 1px dashed #eee;
+    padding-left: 20px;
+    overflow: hidden;
+}
+.list > div:nth-child(3) div:nth-child(1) {
+    float: right;
+    width: 230px;
+}
+.list > div:nth-child(3) li {
+    float: left;
+    margin-bottom: 10px;
+}
+.wraps {
+    width: 1200px;
+    padding: 20px 20px 60px;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+.wraps .addre {
+    margin: 15px 0 20px 0;
+}
+.summary {
+    height: 40px;
+    margin: 30px 0;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+}
+.summary div:nth-child(1) {
+    float: right;
+    margin-bottom: 10px;
+}
+.summary div:nth-child(1) span {
+    float: right;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.summary strong {
+    float: right;
+    font-size: 18px;
+    color: #f6a623;
+}
+.summary h2 {
+    float: left;
+    width: 100%;
+    text-align: right;
+    font-size: 12px;
+    color: #999999;
+}
+.btn {
+    float: right;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    background: #ae846c;
+    text-align: center;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.wraps > div:last-child {
+    height: 40px;
+}
+.huizong li span {
+     float:  left;
+ }
+.huizong li span:nth-child(1) {
+    width: 150px;
+    text-align: right;
+}
+.huizong span:nth-child(2) {
+    width: 80px;
+}
+body > h2 {
+    width: 1200px;
+    margin: 34px auto 20px;
+}
+body > h2 a {
+    font-size: 14px;
+    color: #999999;
+    margin-right: 4px;
+}
+body > h2 span {
+    font-size: 14px;
+}
+.track-rcol{
+    display: none;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.track-list{margin: 20px; padding-left: 82px; position: relative;}
+.track-list li{position: relative; padding: 9px 0 0 25px; line-height: 18px; border-left: 1px solid #d9d9d9; color: #999;}
+.track-list li.first{color: red; padding-top: 0; border-left-color: #fff;}
+.track-list li .node-icon{position: absolute; left: -6px; top: 50%; width: 11px; height: 11px; background: url(../../shopping/images/order-icons.png)  -21px -72px no-repeat;}
+.track-list li.first .node-icon{background-position:0 -72px;}
+.track-list li .time{margin-right: 20px; position: relative; top: 4px; display: inline-block; vertical-align: middle;}
+.track-list li .txt{max-width: 600px; position: relative; top: 4px; display: inline-block; vertical-align: middle;}
+.track-list li.first .time{margin-right: 20px; }
+.track-list li.first .txt{max-width: 600px; }

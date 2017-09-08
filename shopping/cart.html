@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>纸匠商城</title>
+    <link rel="shortcut icon" href="../images/logo.ico">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <script src="../js/jquery-2.2.2.min.js"></script>
+    <script src="js/public.js"></script>
+    <script src="js/cart.js"></script>
+</head>
+<body>
+    <div class="headerOrderContainer"></div>
+    <!--内容区-->
+    <div class="cart wrap">
+        <div class="cartHeader">
+            <div class="left">
+                <input type="checkbox" name="checkedAlls" id="checkedAll"><label for="checkedAll"><i class="check"></i><span>全选</span></label>
+            </div>
+            <div class="left productName">商品名称</div>
+            <div class="left productPrice">单价</div>
+            <div class="left productNumber">数量</div>
+            <div class="left productSubtotal">小计</div>
+            <div class="left productOperation">操作</div>
+        </div>
+        <div class="cartDetails">
+            <div class="cartItem">
+                <input type="checkbox" name="checkedAll" id="checkedItem0"><label for="checkedItem0"><i class="check"></i></label>
+                <img src="images/ma.png" alt="纸匠" class="cartImg left">
+                <div class="left productName">
+                    <h6 class="productDesc">纸匠纸品现代瓦楞纸家居饰品生肖摆件马3D拼装创意办公室桌面摆件</h6>
+                    <p class="productColor">颜色分类：纸原色</p>
+                </div>
+                <div class="left productPrice">$<span class="price">7.00</span></div>
+                <div class="left productNumber">
+                    <span class="minus">-</span>
+                    <input type="number" name="productNumber" value="1">
+                    <span class="plus">+</span>
+                </div>
+                <div class="left productSubtotal">$<span class="productSubtotalMoney">3.00</span></div>
+                <div class="left productOperation">删除</div>
+            </div>
+            <div class="cartItem">
+                <input type="checkbox" name="checkedAll" id="checkedItem1"><label for="checkedItem1"><i class="check"></i></label>
+                <img src="images/ma.png" alt="纸匠" class="cartImg left">
+                <div class="left productName">
+                    <h6 class="productDesc">纸匠纸品现代瓦楞纸家居饰品生肖摆件马3D拼装创意办公室桌面摆件</h6>
+                    <p class="productSize">规格：200*300</p>
+                    <p class="productColor">颜色分类：纸原色</p>
+                </div>
+                <div class="left productPrice">￥<span class="price">4.00</span></div>
+                <div class="left productNumber">
+                    <span class="minus">-</span>
+                    <input type="number" name="productNumber" value="1">
+                    <span class="plus">+</span>
+                </div>
+                <div class="left productSubtotal">￥<span class="productSubtotalMoney">1.00</span></div>
+                <div class="left productOperation">删除</div>
+            </div>
+        </div>
+        <div class="cartFooter">
+            <div class="left">
+                <input type="checkbox" name="checkedAlls" id="checkedAlls"><label for="checkedAlls"><i class="check"></i><span>全选</span></label>
+                <span class="deleteAll">删除</span>
+            </div>
+            <div class="right">
+                <div class="settlement right"><a href="order.html" class="goToPay">去结算</a></div>
+                <div class="right">
+                    已选商品 <span class="number">0</span> 件 &nbsp;&nbsp;&nbsp;&nbsp;合计(不含运费): <span class="total">￥<span class="totalMoney">0.00</span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer></footer>
+</body>
+</html>

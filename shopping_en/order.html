@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale1.0">
+	<title>Paper Maker Shop - Order Information</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="shortcut icon" href="../images/logo.ico">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/order.css">
+	<script src="../js/jquery-2.2.2.min.js"></script>
+	<script src="js/public.js"></script>
+
+</head>
+<body>
+	<div class="headerOrderContainer"></div>
+	<div class="wraps">
+		<!-- 收货地址管理 -->
+		<h2>1.Shipping Address<span class="addAddress">Add New Address</span></h2>
+		<ul class="addressList">
+		</ul>
+		<!-- 选择支付方式 -->
+		<h2>2.Choose Payment Method</h2>
+		<div class="pay">
+			<p>Online Payments Are Available：</p>
+			<ul class="payment">
+				<li class="alipay payment-active"><em></em><div></div></li>
+				<!--<li class="wechat"><em></em><div></div></li>-->
+			</ul>
+			<!--<p>快捷支付支持支付宝快捷支付，无需开通网银，有卡就能付（需有支付宝账户）：</p>
+			<ul class="payment">
+				<li class="jianshe"><em></em><div></div></li>
+				<li class="zhongxin"><em></em><div></div></li>
+				<li class="pingan"><em></em><div></div></li>
+				<li class="xingye"><em></em><div></div></li>
+				<li class="gongshang"><em></em><div></div></li>
+			</ul>-->
+		</div>
+		<h2>3.Product List</h2>
+		<div class="list">
+			<h2>
+				<span>Product Name</span><span>Unit Price</span><span>Quantity</span>
+				<span>Sub-Total</span>
+			</h2>
+			<div class="goodsShow">
+				<!--<div class="clearfix">
+					<dl>
+						<dt><img src="" alt=""></dt>
+						<dd>
+							<h2>纸匠纸品现代瓦楞纸家居饰品生肖摆件马3D拼装创意办公室桌面摆件</h2>
+							<strong>颜色分类：</strong>
+							<em>纸原色</em>
+						</dd>
+					</dl>
+					<span>￥78.0</span>
+					<span>1</span>
+					<span>小计</span>
+				</div>-->
+			</div>
+
+			<div class="clearfix">
+				<div class="wenben"><textarea name="" id="leaveMessage" cols="30" rows="10" placeholder="Special Instructions or Order Comments，The number of words is less than 100 words"></textarea></div>
+				<div class="huizong clearfix">
+					<div>
+						<ul>
+							<li><span>Quantity： </span><span class="goodsNum">Pieces</span></li>
+							<li><span>Total(without freight charge)：</span><span class="lastTotal"> </span></li>
+							<li><span>Shipping： </span><span>$0.00</span></li>
+							<li><span>Coupons： </span><span>$0.00</span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="summary">
+			<div><span class="lastTotal">456</span><span class="sure">Total：</span></div>
+			<h2>Send to：<span class="addressconfirm">张三 福建 泉州市 晋江市 城区洪山工业设计园3号楼206平空工业设计（纸匠楼上） 134****6666</span></h2>
+		</div>
+		<div>
+			<div class="btn">Submit Order</div>
+		</div>
+				
+	</div>
+	<div class="remak">
+		<div class="">
+			<h2>Add new receiver<strong></strong></h2>
+			<div class="information">
+				<form class="form" action="#">
+					<ul class="information_ul">
+						<li>
+							<h3><em>*</em><span>First Name</span></h3>
+							<div><input class="name1" type="text"  placeholder="First Name"></div>
+						</li>
+						<li>
+							<h3><em>*</em><span>Last Name</span></h3>
+							<div><input class="name2" type="text" placeholder="Last Name"></div>
+						</li>
+						<li>
+							<h3><em>*</em><span>Street Address</span></h3>
+							<div><input class="stAddress" type="text" placeholder="Street Address"></div>
+						</li>
+						<li>
+							<h3><em>*</em><span>City</span></h3>
+							<div><input class="City" type="text" placeholder="City"></div>
+						</li>
+						<li>
+							<h3><em>*</em><span>Country</span></h3>
+							<div class="positions">
+								<div class="country"></div>
+								<div class="countrys"></div>
+							</div>
+						</li>
+						<li>
+							<h3><em>*</em><span>State/Province</span></h3>
+							<div><input class="province" type="text" placeholder="State/Province"></div>
+						</li>
+						<li>
+							<h3><span>Post/Zip Code</span></h3>
+							<div><input class="zipCode" type="number" name="email" placeholder="Post/Zip Code"></div>
+						</li>
+						<li>
+							<h3><em>*</em><span>Telephone</span></h3>
+							<div><input class="phone" type="number" name="email" placeholder="Telephone"></div>
+						</li>
+					</ul>
+				</form>
+						
+				<div class="submit" style="margin-left: 0;">Save</div>
+			</div>
+		</div>
+	</div>
+	<footer></footer>
+	<script src="js/countryCity.js"></script>
+	<script src="js/order.js"></script>
+
+</body>
+</html>

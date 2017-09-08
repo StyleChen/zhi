@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>创客教育 - 纸家具_益智玩具_纸玩_纸匠</title>
+	<meta name="keywords" content="创客,创客教育,创客空间,教育创新,中国创客教育联盟"/>
+	<meta name="description" content="创客教育 - 纸匠做为纸玩行业领导者,现有创意生活家居,实用办公用品,礼品装饰品,商业道具,儿童益智玩具与教程五大系列产品。专注于纸家具和儿童产品开发，让儿童感受到环保、益智、学习乐趣"/>
+	<link rel="shortcut icon" href="images/logo.ico">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/all.css">
+	<style>
+	 	body,html{
+	 		overflow: visible;
+	 		background-color: #f4f4f4;
+	 	}
+		.bd-wrap{
+			width: 100%;
+			height: auto;
+			position: relative;
+			background-color: #f4f4f4;
+		}
+		.bd-wrap img{
+			width: 100%;
+			height: 100%;
+		}
+		.team-container{
+			background-color: #f4f4f4;
+			position: relative;
+			width: 90%;
+			padding: 0;
+		}
+		.team-container .row{
+			background-color: #fff;
+			padding: 0;
+			margin: 0;
+		}
+		.team-container .row .col-sm-6{
+			padding: 0;
+		}
+		.top-title{
+			position: absolute;
+			top: 18%;
+			left: 13%;
+			border-top: solid 5px #fff;
+			border-bottom: solid 5px #fff;
+			width: 225px;
+		}
+		.top-title p{
+			font-size: 36px;
+			color: #fff;
+			font-weight: 400;
+		}
+		.top-title span{
+			font-size: 20px;
+			color: #fff;
+			font-weight: 300;
+		}
+		footer{
+			margin-top: 50px;
+			background-color: #fff;
+			padding: 20px;
+			overflow: hidden;
+			position: relative;
+			padding-bottom: 120px;
+		}
+		.ft-box{
+			text-align: center;
+			position: relative;
+			left: 50%;
+			float: left;
+		}
+		.ft-logo{
+			position: relative;
+			right: 50%;
+		}
+		.ft-text{
+			margin-top: 30px;
+			position: relative;
+			right: 50%;
+		}
+		.last-list{
+			overflow: hidden;
+			position: relative;
+			right: 50%;
+			margin-top: 30px;
+		}
+		.last-list li{
+			overflow: hidden;
+			float: left;
+			border-right: 1px solid #000;
+		}
+		.last-list li a{
+			float: left;
+			color: #000;
+			text-decoration: none;
+			padding: 0 10px;
+			line-height: 15px;
+		}
+		.list-icon{
+			overflow: hidden;
+			position: relative;
+			right: 10%;
+			margin-top: 20px;
+		}
+		.list-icon li{
+			float: left;
+		}
+		.bottom-border{
+			height: 1px;
+			background-color: rgba(0, 0, 0, 0.12);
+			width: 80%;
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			transform: translate(-50%,0);
+			margin-bottom: 100px;
+		}
+		.foot-text{
+			position: absolute;
+			bottom: 0;
+			text-align: center;
+			left: 50%;
+			transform: translate(-50%,0);
+			margin-bottom: 20px;
+			color: rgba(0, 0, 0, 0.54);
+		}
+		.video-container{
+			width: 90%;
+			margin-top: -20%;
+			position: relative;
+			background-color: #fff;
+			margin-bottom: 20px;
+		}
+		.video-cols{
+			height: 60px;
+		}
+		.video-cols p{
+			float: left;
+			color: rgba(0, 0, 0, 0.26);
+			line-height: 60px;
+		}
+		.col-banner-rt img{
+			width: 100%;
+			height: auto;
+		}
+		.col-title{
+			color: #000;
+			font-size: 20px;
+			font-weight: 500;
+		}
+		.col-title span{
+			font-size: 14px;
+			display: block;
+		}
+		.col-text-2{
+			margin-top: 20px;
+		}
+		.col-banner-rt:before{
+			content: '';
+			display: inline-block;
+			position: absolute;
+			width: 100px;
+			height: 100%;
+			background-color: #fff;
+			opacity: 0.7;
+		}
+		.col-banner-rt-2:before{
+			content: '';
+			display: inline-block;
+			position: absolute;
+			right: 0;
+			width: 100px;
+			height: 100%;
+			background-color: #fff;
+			opacity: 0.7;
+		}
+		.contact:nth-child(even) .col-banner-rt:before{
+			content: '';
+			display: inline-block;
+			position: absolute;
+			right: 0;
+			width: 100px;
+			height: 100%;
+			background-color: #fff;
+			opacity: 0.7;
+		}
+		.contact{
+			position: relative;
+			overflow: hidden;
+			height:auto;
+			margin-bottom: 20px !important;
+		}
+
+		/*第一块效果*/
+		.contact .col-sm-6:after{
+			position: absolute;
+			display: block;
+			content: '';
+			top: 0;
+			z-index:2;
+			width: 100%;
+			height: 100%;
+			background-color: #FFF;
+			-webkit-transition: width 1s;
+			-moz-transition: width 1s;
+			-ms-transition: width 1s;
+			-o-transition: width 1s;
+			transition: width 1s;
+		}
+
+		.contact .showA .hideH .contactText{
+			padding: 20px;
+		}
+
+		.contactText{
+			position: absolute;
+			z-index:1;
+			top: 0;
+			left: 0;
+		}
+		.contact:after{
+			display: block;
+			content: '';
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			background: #d0d0d0;
+			z-index:3;
+			-webkit-transition: all .5s;
+			-moz-transition: all .5s;
+			-ms-transition: all .5s;
+			-o-transition: all .5s;
+			transition: all .5s;
+		}
+
+		/*第二块效果*/
+		.modBox-inner:after{
+			display: block;
+			content: '';
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 100%;
+			height: 100%;
+			z-index: 3;
+			background: #d0d0d0;
+			-webkit-transition: width .5s;
+			-moz-transition: width .5s;
+			-ms-transition: width .5s;
+			-o-transition: width .5s;
+			transition: width .5s;
+		}
+		.modBox-inner .col-sm-6:after{
+			display: block;
+			content: '';
+			position: absolute;
+			z-index: 2;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			right: 0;
+			background: #ffffff;
+			-webkit-transition: width 0.3s;
+			-moz-transition: width 0.3s;
+			-ms-transition: width 0.3s;
+			-o-transition: width 0.3s;
+			transition: width 0.3s;
+		}
+
+		.contact .hideW:after,.modBox-inner .hideW:after,.contact-active:after{
+			width: 0;
+		}
+		.contact .hideH:after,.modBox-inner .hideH:after{
+			height: 0;
+		}
+		.contact .col-sm-6:after{
+			position: absolute;
+			display: block;
+			content: '';
+			top: 0;
+			z-index:2;
+			width: 100%;
+			height: 100%;
+			background-color: #FFF;
+			-webkit-transition: width .3s;
+			-moz-transition: width .3s;
+			-ms-transition: width .3s;
+			-o-transition: width .3s;
+			transition: width .3s;
+		}
+		.contact:nth-child(even) .col-sm-6:after{
+			right: 0;
+		}
+		.contact:nth-child(odd) .col-sm-6:after{
+			left: 0;
+		}
+		.contact .showA .hideH .contactText{
+			padding: 60px 20px;
+		}
+
+		.contactText{
+			position: absolute;
+			z-index:1;
+			top: 0;
+			left: 0;
+		}
+		.contact:after{
+			display: block;
+			content: '';
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			background: #f5f5ee;
+			z-index:3;
+			-webkit-transition: all .5s;
+			-moz-transition: all .5s;
+			-ms-transition: all .5s;
+			-o-transition: all .5s;
+			transition: all .5s;
+		}
+		.contact:nth-child(even):after{
+			right: 0;
+		}
+		.contact:nth-child(odd):after{
+			left: 0;
+		}
+
+		.contact .hideW:after,.contact-active:after{
+			width: 0;
+		}
+		.contact .hideH:after,.modBox-inner .hideH:after{
+			height: 0;
+		}
+		.team-container .contact:nth-child(even) .col-sm-6{
+			float: right;
+		}
+	</style>
+</head>
+<body>	
+
+
+	<div class="bd-wrap">
+		<img src="images/video-banner.png" alt="纸匠官网">
+		<div class="top-title">
+			<p>创客教育简介</p>
+			<span>DESCRIPTION</span>
+		</div>
+	</div>
+
+	<div class="container video-container">
+			<div class="row">
+				<div class="col-sm-12 video-cols">
+					<p><a href="https://www.papermaker.cn">纸匠&nbsp;&nbsp;&nbsp;/&nbsp;</a></p>
+					<div class="nav-p">
+						<a href="education.html">&nbsp;&nbsp;&nbsp;创客教育 &nbsp;<span class="sanjiao"></span> &nbsp;&nbsp;/ </a>
+						<ul class="nav-ul">
+							<li><a href="education.html">创客教育</a></li>
+							<li><a href="show.html">场景展示</a></li>
+							<li><a href="video.html">课程介绍</a></li>
+							<li><a href="join.html">创客招商</a></li>
+							<li><a href="teacher.html">合作名师</a></li>
+							<li><a href="institution.html">合作机构</a></li>
+						</ul>
+					</div>
+					<p style="color: #000;">&nbsp;&nbsp;&nbsp;简介</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container team-container">
+			<div class="row contact contactOne">
+				<div class="showA">
+					<div class="col-sm-6">
+						<div class="contactText  animated">
+							<div class="col-title">
+								项目背景
+								<span>Project Background</span>
+							</div>
+
+							<div class="col-text-2">
+								近些年，我国教育部门在各项文件中以及目各类课程课标修订工作中都强调了对创客教育的重视和引导。2016年4月，中国创客教育联盟成立。6月教育部印发《教育信息化“十三五”规划》，提出有条件的地区要积极探索信息技术在“众创空间”、创客教育等新的教育模式中的应用，正式进入国家层面的教育发展规划。10 月 22 日，全国首个小学“教育创客空间”正式落户重庆市南岸区珊瑚实验小学。
+							</div>
+						</div>
+						<img src="images/39.jpg" srcset="images/39@2x.jpg 2x,images/39@3x.jpg 3x" class="img-responsive" style="opacity: 0;">
+					</div>
+
+					<div class="col-sm-6 col-banner-rt  modPanel-box cfx">
+						<img src="images/39.jpg" srcset="images/39@2x.jpg 2x,images/39@3x.jpg 3x" alt="创客教育" width="742" height="400">
+					</div>
+				</div>
+			</div>
+			<div class="row modBox-inner" style="margin: 20px auto;">
+				<div class="col-sm-6 col-banner-rt col-banner-rt-2">
+					<img src="images/37.jpg" srcset="images/37@2x.jpg 2x,images/37@3x.jpg 3x" alt="国际教育趋势" width="742" height="400">
+				</div>
+				<div class="col-sm-6 animated" style="padding: 20px;">
+					<div class="col-title">
+						国际教育趋势
+						<span>International trend of education</span>
+					</div>
+					<div class="col-text-2">
+						在国外，创客教育成为推动教育改革、培养科技创新人才的重要内容。美国政府在2012年初就提出，在接下来几年在1 000所中小学校引入“创客空间”，配备开源硬件、3D打印机和激光切割机等数字开发和制造工具。
+					</div>
+				</div>
+			</div>
+			<div class="row contact contactThree">
+				<div class="showA">
+					<div class="col-sm-6">
+						<div class="contactText  animated">
+							<div class="col-title">
+								项目背景
+								<span>Project Background</span>
+							</div>
+
+							<div class="col-text-2">
+								纸匠创客教室是纸匠儿童事业部针对广大儿童推出的以环保再生纸为材料，手工DIY实际场景主题教育项目之一。通过对环保再生纸合理利用，应用力学，拼装等工艺赋予再生纸新的生命，展示环保再生纸的无限魅力！创客教室提倡寓教于乐的理念，让儿童在纸匠创客空间发挥天马行空的想法，动手创造，自由发挥！							</div>
+						</div>
+						<img src="images/27.jpg" srcset="images/27@2x.jpg 2x,images/27@3x.jpg 3x" class="img-responsive" style="opacity: 0;">
+					</div>
+
+					<div class="col-sm-6 col-banner-rt  modPanel-box cfx">
+						<img src="images/27.jpg" srcset="images/27@2x.jpg 2x,images/27@3x.jpg 3x" alt="创客教室" width="742" height="400">
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+
+	<footer></footer>
+
+<script src="js/jquery-2.2.2.min.js"></script>
+
+	<script src="js/ajax.js"></script>
+	<script>
+        $(function () {
+            var json = ajax("get","edu/list",function (res) {
+//                console.log(res.data.edu_intro);
+                var list = res.data.edu_intro;
+                var html = "";
+                for(var i=0;i<list.length;i++){
+                    var title = list[i].name;
+                    var titleEn = list[i].nameEn;
+                    var content = list[i].content;
+                    var img = list[i].fullImage;
+                    var textLi = '';
+                    html += '<div class="row contact"> <div class="showA"> <div class="col-sm-6 animated"> <div class="contactText"> <div class="col-title">' +
+                        title +
+                        '</div> <div class="col-text">' +
+                        titleEn +
+                        '</div> <p class="col-text-2">' +
+                        content +
+                        '</p> </div> <img src="'+  img +'" class="img-responsive" style="opacity: 0;"> </div> <div class="col-sm-6 col-banner-rt  modPanel-box"> ' +
+                        '<img src="'+ img +'" alt="纸匠" width="742" height="400"> ' +
+                        '</div> </div> </div>';
+                }
+
+                $(".team-container").html(html);
+                $(".loading").fadeOut(100);
+//				页面渲染需要时间，函数需要等DOM全部加载完后执行，所以暂加个定时器延时执行
+                setTimeout(function () {
+                    siled($(".contact"));
+                },300)
+            });
+
+
+            function siled(ele) {
+                for(var n=0;n<ele.length;n++){
+                    if(!ele.eq(n).hasClass("contact-active")) {
+                        if (jQuery(window).height() > (ele[n].getBoundingClientRect().top + ele.eq(n).outerHeight() / 2)) {
+                            ele.eq(n).addClass("contact-active");
+                            (function (n) {
+                                setTimeout(function () {
+                                    ele.eq(n).find(".col-sm-6").eq(0).addClass("hideH shake");
+                                    ele.eq(n).find(".col-sm-6").eq(1).addClass("hideW");
+                                }, 500);
+                            })(n)
+                        }
+                    }
+                }
+            }
+            $(window).scroll(function () {
+                siled($(".contact"));
+            })
+
+        })
+	</script>
+</body>
+</html>

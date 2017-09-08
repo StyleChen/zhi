@@ -1,0 +1,245 @@
+@charset "UTF-8";
+
+/*
+**************************************************************************
+*	tag-tokyu 2018 interview.css
+**************************************************************************/
+
+#ancher-nav {
+	margin-top: -90px;
+}
+#ancher-nav a span {
+	font-size: 12px;
+}
+.modPanel-box {
+	position: relative;
+	height: 600px;
+	overflow: hidden;
+}
+.modPanel-box .modPanel-image {
+	position: relative;
+	float: left;
+	overflow: hidden;
+}
+.modPanel-box .modPanel-body {
+	position: relative;
+	float: right;
+	overflow: hidden;
+}
+.modPanel-image {
+	position: relative;
+	overflow: hidden;
+	width: 50%;
+	height: 100%;
+	background-color: #e9f3fd;
+}
+.modPanel-image img {
+	position: absolute;
+	left: 50%;
+	width: 938px;
+	max-width: none;
+	margin-left: -469px;
+}
+.modPanel-body {
+	width: 50%;
+	height: 100%;
+	display: table;
+}
+.modPanel-inner {
+	position: relative;
+	color: #ffffff;
+	font-size: 20px;
+	line-height: 1.2;
+	display: table-cell;
+	padding: 9.375% 9.375%;
+	text-align: center;
+	vertical-align: middle;
+}
+.modPanel-carrer {
+	margin-bottom: 50px;
+}
+.modPanel-carrer span {
+	display: block;
+	margin-top: 30px;
+}
+.modPanel-note {
+	margin-bottom: 30px;
+}
+.modPanel-name-jp {
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.modPanel-name-en {
+	font-weight: bold;
+}
+.modCts-box {
+	max-width: 760px;
+	margin: 0 auto 120px;
+}
+.modCtsSub-box {
+	margin-top: 80px;
+}
+.modCtsSub-title {
+	font-size: 26px;
+	line-height: 1.4;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.modCtsMessage-box {
+	margin-top: 80px;
+	padding: 5.26316% 5.26316%;
+	border: 5px solid #dddddd;
+	background-color: #ffffff;
+}
+.modCtsMessage-title {
+	width: 317px;
+	margin: 0 auto 40px;
+}
+
+@media screen and (max-width: 1137px) {
+}
+
+@media (max-width: 767px) {
+.modPanel-box {
+	height: auto;
+}
+.modPanel-box .modPanel-image {
+	float: none;
+}
+.modPanel-box .modPanel-body {
+	float: none;
+}
+.modPanel-image {
+	width: 100%;
+	height: 320px;
+}
+.modPanel-image img {
+	width: 500px;
+	margin-left: -250px;
+}
+.modPanel-body {
+	display: block;
+	width: 100%;
+}
+.modPanel-inner {
+	font-size: 10px;
+	padding: 20px 15px;
+	width: 100%;
+	display: block;
+	box-sizing: border-box;
+}
+.modPanel-carrer {
+	margin-bottom: 15px;
+}
+.modPanel-carrer img {
+	max-width: 207px;
+	width: 100%;
+}
+.modPanel-carrer span {
+	margin-top: 5px;
+}
+.modPanel-note {
+	margin-bottom: 5px;
+}
+.modPanel-name-jp {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.modCts-box {
+	max-width: none;
+	margin-bottom: 60px;
+}
+.modCtsSub-box {
+	margin-top: 40px;
+}
+.modCtsSub-title {
+	font-size: 20px;
+	margin-bottom: 20px;
+	text-align: left;
+}
+.modCtsMessage-box {
+	margin-top: 40px;
+	padding: 25px 25px;
+}
+.modCtsMessage-title {
+	max-width: 230px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+}
+
+
+/* --------------------------------------------------
+		account
+-------------------------------------------------- */
+.account {
+}
+.account .modPanel-body {
+	background-color: #e7336e;
+}
+.account .modPanel-image .cover {
+	background-color: #e7336e;
+}
+
+@media (max-width: 767px) {
+.account .modPanel-carrer img {
+	width: 100%;
+	max-width: 290px;
+}
+}
+
+
+/* --------------------------------------------------
+		planning
+-------------------------------------------------- */
+.planning {
+}
+.planning .modPanel-body {
+	background-color: #b8d200;
+}
+.planning .modPanel-image .cover {
+	background-color: #b8d200;
+}
+
+@media (max-width: 767px) {
+}
+
+
+/* --------------------------------------------------
+		creative
+-------------------------------------------------- */
+.creative {
+}
+.creative .modPanel-body {
+	background-color: #00afdd;
+}
+.creative .modPanel-image .cover {
+	background-color: #00afdd;
+}
+
+@media (max-width: 767px) {
+}
+
+
+/* --------------------------------------------------
+		general
+-------------------------------------------------- */
+.general {
+}
+.general .modCts-box {
+	margin-bottom: 80px;
+}
+.general .modPanel-body {
+	background-color: #666666;
+}
+.general .modPanel-image .cover {
+	background-color: #666666;
+}
+
+@media (max-width: 767px) {
+.general .modCts-box {
+	margin-bottom: 40px;
+}
+}

@@ -1,0 +1,500 @@
+@charset "utf-8";
+.remak ul {
+    padding-left: 0;
+}
+body {
+    background-color: #fdf7e9;
+}
+.wraps {
+    width: 1200px;
+    /*height: 1080px;*/
+    margin: 30px auto;
+    padding: 20px 20px 60px;
+    background: #fff;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+.wraps > h2 {
+    height: 40px;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 40px;
+    color: #333333;
+    background-color: #eee;
+}
+.wraps > h2 span {
+    float: right;
+    font-size: 14px;
+    line-height: 40px;
+    color: #ae846c;
+    cursor: pointer;
+
+}
+/*收货地址*/
+.addressList li {
+    height: 40px;
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+.addressList li:last-child {
+    margin-bottom: 20px;
+}
+.addressList li:hover {
+    background: #f8f8f8;
+}
+.wraps li em {
+    float: left;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 13px 10px 0 0;
+    cursor: pointer;
+}
+.addressList h2 {
+    float: left;
+    width: 850px;
+    font-size: 14px;
+    line-height: 40px;
+    color: #333;
+    cursor: pointer;
+}
+.addressList strong {
+    display: none;
+    float: right;
+    cursor: pointer;
+    line-height: 40px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.addressList li strong:nth-child(4) {
+    color: #ae846c;
+}
+.setAddress{
+    color:#ae846c;
+}
+.addressList li.address-active{
+    background: #fdf7e9;
+}
+.address-active em,.payment-active em{
+    background: url(../images/invalid-name@2x.png) center no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+.address-active strong{
+    display: block;
+}
+/*支付方式*/
+.pay {
+    padding: 10px 20px;
+}
+.pay p {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 30px;
+}
+.pay ul {
+    width: 100%;
+    height: 60px;
+}
+.pay li {
+    float: left;
+    margin-right: 1.5%;
+}
+.pay li div {
+    float: left;
+    height: 32px;
+}
+.pay .alipay div {
+
+    width: 96px;
+    height: 32px;
+    background: url(../images/Alipay.png) no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.pay .wechat div {
+    width: 114px;
+    height: 32px;
+    background: url(../images/wechat.png) no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.pay .jianshe div {
+    width: 139px;
+    background: url(../images/jianshe.png) no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.pay .zhongxin div {
+    width: 130px;
+    background: url(../images/zhongxin.png) no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.pay .pingan div {
+    width: 90px;
+    background: url(../images/pingan.png) no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.pay .xingye div {
+    width: 139px;
+    background: url(../images/xingye.png) no-repeat;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+}
+.pay .gongshang div {
+    width: 139px;
+    background: url(../images/gongshan.png) no-repeat;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+}
+/*商品清单*/
+.list > div {
+    padding-left: 20px;
+}
+.list > h2 {
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 20px;
+    border-bottom: 2px solid #ccc
+}
+.list > h2 span {
+    float: left;
+    font-size: 14px;
+    line-height: 40px;
+    margin-right: 172px;
+}
+.list > h2 > span:nth-child(1) {
+    margin-right: 598px;
+}
+.list > h2 > span:last-child{
+    margin-right: 0
+}
+.wraps dl {
+    float: left;
+    width: 360px;
+    margin-right: 287px;
+}
+.wraps dl dt {
+    float: left;
+    width: 64px;
+    height: 64px;
+    margin-right: 10px;
+    border: 1px solid #eee
+}
+.wraps dl dd {
+    float: left;
+    width: 277px;
+}
+.wraps dl dd h2 {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.wraps dl dd strong, dl dd em {
+    font-size: 12px;
+    color: #ccc
+}
+.list .goodsList span {
+    float: left;
+    width: 40px;
+    margin-right: 158px;
+    text-align: center;
+}
+.list span:last-child {
+    margin-right: 0
+}
+.goodsList{
+    padding-bottom: 14px;
+    margin-top: 20px;
+}
+.goodsShow{
+    margin-bottom: 30px;
+    border-bottom: 1px dashed #eee;
+}
+textarea {
+    width: 380px;
+    height: 60px;
+    border: 1px solid #ccc;
+    resize: none;
+    padding: 10px;
+}
+.list > div:nth-child(3) div:nth-child(1) {
+    float: left;
+    /*width: 400px;*/
+}
+.huizong li span {
+    float:  left;
+    font-size: 14px;
+}
+.huizong li span:nth-child(1) {
+    width: 150px;
+    text-align: right;
+}
+.huizong span:nth-child(2) {
+    width: 80px;
+}
+.huizong {
+    width: 240px;
+    float: right;
+}
+.wenben {
+    float: left;
+    width:400px;
+}
+.list > div:nth-child(3) li {
+    float: left;
+    margin-bottom: 10px;
+}
+.summary {
+    height: 78px;
+    margin: 30px 0;
+    padding: 10px 20px 15px;
+    background-color: #f8f8f8;
+}
+.summary div:nth-child(1) {
+    float: right;
+    margin-bottom: 10px;
+}
+.sure {
+    float: right;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.summary strong,.lastTotal {
+    float: right;
+    font-size: 18px;
+    color: #f6a623;
+}
+.summary h2 {
+    float: left;
+    width: 100%;
+    text-align: right;
+    font-size: 12px;
+    color: #999999;
+}
+.wraps > div:last-child {
+    height: 40px;
+}
+.btn {
+    float: right;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    background: #ae846c;
+    text-align: center;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+/*修改地址*/
+.remak {
+    display: none;
+    z-index: 999;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+
+}
+.remak > div {
+    z-index: 1000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 800px;
+    height: 540px;
+    margin: auto;
+    background: #fff;
+}
+.remak h2 {
+    height: 40px;
+    padding: 0 20px;
+    background: #ae846c;
+    font-size: 16px;
+    line-height: 40px;
+    color: #fff;
+}
+.remak h2 strong {
+    float: right;
+    width: 16px;
+    height: 40px;
+    background: url(../images/close.png) 0 10px no-repeat;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+    cursor: pointer;
+}
+.information {
+    padding: 0 50px;
+}
+.remak ul{
+    margin-top: 30px;
+}
+.information .information_ul{
+    width: 100%;
+}
+.information em {
+    float: left;
+    color: #f00;
+    line-height: 30px;
+    font-size: 16px;
+    margin-right: 5px;
+}
+.information span {
+    float: left;
+    font-size: 14px;
+    line-height: 30px;
+}
+.information h3 {
+    height: 30px;
+    margin-left: -12px;
+}
+.information li:last-child h3{
+    margin-left: 0;
+}
+.information li {
+    margin-bottom: 5px;
+}
+.information li div {
+    height: 40px;
+}
+.information li input {
+    float: left;
+    width: 400px;
+    font-size: 14px;
+    margin-right: 10px;
+    border: 0;
+    height: 2.57rem;
+    line-height: 38px;
+    outline: none;
+    background: none;
+    /*line-height: 54px;*/
+    color: #000;
+    border-bottom: 2px solid #eee;
+    padding-left: 0;
+
+}
+.information li strong {
+    line-height: 40px;
+    float: left;
+    color: #d0011b;
+}
+.citys, .areas ,.provis{
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+    text-align: left;
+    color: rgba(0,0,0,0.27);
+}
+.information li .provi {
+    position: absolute;
+    top:38px;
+    left: 0;
+    overflow-y: scroll;
+    width: 100%;
+    height: 228px;
+    background: #fff;
+    z-index: 3;
+}
+.provi p,.city p, .area p {
+    line-height: 24px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: left;
+}
+.addressList{
+    text-align: left;
+}
+.provi {
+    display: none;
+}
+.information li .city, .information li .area {
+    position: absolute;
+    top:38px;
+    left: 0;
+    overflow-y: scroll;
+    width: 100%;
+    height: 228px;
+    background: #fff;
+    z-index: 3;
+}
+.city {
+    display: none;
+}
+.area {
+    display: none;
+}
+.loca {
+    width: 100%;
+    height: 38px;
+    margin-top: 10px;
+}
+.loca p:hover {
+    background: #39f
+}
+.loca > div {
+    width: 120px;
+    margin-right: 3%;
+    cursor: pointer;
+
+    line-height: 38px;
+}
+.provi-box,.citybox, .areabox {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 38px;
+    border-bottom: 2px solid #f2f2f2;
+    cursor: pointer;
+}
+i {
+    position: absolute;
+    right: 8px;
+    bottom: 16px;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #666;
+}
+
+.submit,.update{
+    width: 120px;
+    height: 40px;
+    background: #ae846c;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    border-radius: 4px;
+}
+.information span.x{
+    display: inline-block;
+    text-align: center;
+    line-height: 13px;
+    width: 13px;
+    height: 13px;
+    font-size: 12px;
+    margin-top: 13px;
+    margin-right: 3px;
+    background: #d0011b;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    color:#fff;
+}

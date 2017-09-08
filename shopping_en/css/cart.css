@@ -1,0 +1,137 @@
+/*购物车操作导航*/
+.cart{
+    padding:20px 20px 30px;
+    margin: 30px auto;
+    background: #ffffff;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+.cartHeader{
+    height: 40px;
+    border-bottom:2px solid #ccc;
+    line-height: 40px;
+    padding:0 10px;
+}
+.cartHeader label span{
+    margin-right: 35px;
+}
+.productName{
+    width: 385px;
+    padding-left: 5px;
+    padding-right: 100px;
+}
+.productPrice,.productSubtotal,.productNumber{
+    width: 200px;
+}
+
+/*购物车商品item*/
+.cartItem{
+    height: 90px;
+    padding: 15px 10px;
+    border-bottom: dotted 2px #eeeeee;
+}
+.cartItem .check{
+    margin-top: 22px;
+}
+.cartImg{
+    width: 60px;
+    border:1px solid #eee;
+    cursor: pointer;
+}
+.productDesc{
+    font-weight: 500;
+    min-height: 27px;
+    max-height: 34px;
+    overflow: hidden;
+    line-height: 17px;
+}
+.productColor,.productSize{
+    color:#ccc;
+}
+.cartItem .productName{
+    cursor: pointer;
+}
+.productNumber span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 20px;
+}
+.productNumber input{
+    text-align: center;
+    width: 30px;
+}
+.plus,.minus{
+    cursor: default;
+}
+.cartItem .productSubtotal,.productSubtotalMoney{
+    color:#d0011b;
+}
+.cartItem .productPrice,.cartItem .productSubtotal,.cartItem .productNumber,.cartItem .productOperation{
+    line-height: 60px;
+}
+.productOperation{
+    cursor: pointer;
+}
+/*购物车操作尾部*/
+.cartFooter{
+    height: 40px;
+    line-height: 40px;
+    margin-top: 30px;
+    padding-left: 10px;
+    background: #eee;
+}
+.cartFooter input[type='checkbox'] + label{
+    display: inline-block;
+}
+.deleteAll{
+    margin-left: 35px;
+    cursor: pointer;
+}
+.settlement{
+    width: 100px;
+    height: 40px;
+    background-color: #ae846c;
+    margin-left: 20px;
+}
+.settlement a{
+    color:#fff;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.number,.total,.totalMoney{
+    color:#f6a623;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

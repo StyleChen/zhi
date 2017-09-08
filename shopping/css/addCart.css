@@ -1,0 +1,43 @@
+
+.addCart{
+    margin-top: 30px;
+    height: 200px;
+    background: #ffffff;
+    padding: 20px;
+}
+.confirm{
+    height: 55px;
+    line-height: 55px;
+    padding-left: 34px;
+    background: url("../images/confirm.png") left center no-repeat;
+    font-size: 16px;
+    color: #ae846c
+}
+.productsCartImg{
+    width: 60px;
+    border: 1px solid #eee;
+    margin-right: 5px;
+}
+.productsCartDesc{
+    font-weight:500;
+}
+.productsCartColr{
+    margin-top: 5px;
+    color: #cccccc;
+}
+.goSettlement,.seeCart{
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.seeCart{
+    border: solid 1px #ae846c;
+    color: #ae846c;
+}
+.goSettlement{
+    background-color: #ae846c;
+    color: #ffffff;
+    margin-left: 20px;
+}

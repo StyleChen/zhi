@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: 
+Disallow: /zhijiang-en/
+Disallow:/project/zhijiang2/
+Sitemap: https://www.papermaker.cn/sitemap.xml

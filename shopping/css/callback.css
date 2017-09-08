@@ -1,0 +1,45 @@
+.callback{
+    height:450px;
+    background: #FFF;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 12px;
+}
+.msg{
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    padding-left: 40px;
+    background: url("../images/confirm.png") left center no-repeat;
+    -webkit-background-size: 30px;
+    background-size: 30px;
+    font-size: 14px;
+}
+.action{
+    padding-left: 40px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.action a{
+    color:#ae846c;
+    font-size: 12px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+.action .qq,.action .wx,.action .wb{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    -webkit-background-size: 24px;
+    background-size: 24px;
+    margin-right: 5px;
+}
+.qq{
+    background: url("../images/icon-qq.png") no-repeat;
+}
+.wx{
+    background: url("../images/icon-weixin.png") no-repeat;
+}
+.wb{
+    background: url("../images/icon-weibo.png") no-repeat;
+}

@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>创客教育课程介绍 - 纸家具_益智玩具_纸玩_纸匠</title>
+	<meta name="keywords" content="纸家具,创意家具,益智玩具,纸玩,纸匠"/>
+	<meta name="description" content="创客教育课程介绍 - 纸匠做为纸玩行业领导者,现有创意生活家居,实用办公用品,礼品装饰品,商业道具,儿童益智玩具与教程五大系列产品。专注于纸家具和儿童产品开发，让儿童感受到环保、益智、学习乐趣"/>
+	<link rel="shortcut icon" href="images/logo.ico">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/all.css">
+	<style>
+		body,html{
+			overflow: visible;
+			margin: 0;
+			padding: 0;
+			height: auto;
+			background-color: #f4f4f4;
+		}
+		p{
+			margin: 0;
+			padding: 0;
+		}
+		.bd-wrap{
+			width: 100%;
+			height: auto;
+			position: relative;
+			background-color: #f4f4f4;
+		}
+		.bd-wrap img{
+			width: 100%;
+			height: auto;
+		}
+		footer{
+			margin-top: 50px;
+			background-color: #fff;
+			padding: 20px;
+			overflow: hidden;
+			position: relative;
+			padding-bottom: 120px;
+		}
+		.ft-box{
+			text-align: center;
+			position: relative;
+			left: 50%;
+			float: left;
+		}
+		.ft-logo{
+			position: relative;
+			right: 50%;
+		}
+		.ft-text{
+			margin-top: 30px;
+			position: relative;
+			right: 50%;
+		}
+		.ft-text p{
+			margin-top: 5px;
+		}
+		.last-img img{
+			width: 100%;
+			height: auto;
+		}
+		.timeline{
+			width: 90%;
+			margin-top: 20px;
+		}
+		.video-cols{
+			height: 60px;
+		}
+		.video-cols p{
+			float: left;
+			color: rgba(0, 0, 0, 0.26);
+			line-height: 60px;
+		}
+		.video-container{
+			margin-top: -20%;
+			position: relative;
+			background-color: #fff;
+			width: 90%;
+		}
+		.video-list{
+			width: 100%;
+		}
+		.video-play{
+			display:block;
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 0;
+		}
+		.video-play:before{
+			display: block;
+			content: '';
+			background-color: #000;
+			opacity: 0.3;
+			height: 100%;
+		}
+		.video-play img{
+			position: absolute;
+			top: 50% !important;
+			left: 50% !important;
+			transform: translate(-50%,-50%);
+		}
+		.last-list{
+			overflow: hidden;
+			position: relative;
+			right: 50%;
+			margin-top: 30px;
+		}
+		.last-list li{
+			overflow: hidden;
+			float: left;
+			border-right: 1px solid #000;
+		}
+		.last-list li a{
+			float: left;
+			color: #000;
+			text-decoration: none;
+			padding: 0 10px;
+			line-height: 15px;
+		}
+		.list-icon{
+			overflow: hidden;
+			position: relative;
+			right: 10%;
+			margin-top: 20px;
+		}
+		.list-icon li{
+			float: left;
+		}
+		.bottom-border{
+			height: 1px;
+			background-color: rgba(0, 0, 0, 0.12);
+			width: 80%;
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			transform: translate(-50%,0);
+			margin-bottom: 100px;
+		}
+		.foot-text{
+			position: absolute;
+			bottom: 0;
+			text-align: center;
+			left: 50%;
+			transform: translate(-50%,0);
+			margin-bottom: 20px;
+		}
+		.top-title{
+			position: absolute;
+			top: 18%;
+			left: 13%;
+			border-top: solid 5px #fff;
+			border-bottom: solid 5px #fff;
+			width: 225px;
+		}
+		.top-title p{
+			font-size: 36px;
+			color: #fff;
+			font-weight: 400;
+		}
+		.top-title span{
+			font-size: 20px;
+			color: #fff;
+			font-weight: 300;
+		}
+		#visual {
+		    position: relative;
+		    overflow: hidden;
+		}
+		.visual-image{
+		    background-color: #e9f3fd;
+		    background-repeat: no-repeat;
+		    background-position: center center;
+		    background-size: cover;
+		    background-image: url(images/video.jpg);
+		}
+		.cover {
+			position: absolute;
+			z-index: 1;
+			display: block;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: #fff;
+		}
+		.tabs ul li:first-child{
+			background: #ffffff !important;
+			width: 5%;
+		}
+		.tabs ul li:hover{
+			background-color: #aa7322;
+		}
+		.tabs ul li:hover a{
+			color:#FFF;
+		}
+		a:hover, a:focus{
+			text-decoration: none;
+		}
+		.tab>ul>li>a{
+			padding-bottom: 5px;
+		}
+		.tab .current a{
+			border-bottom:2px solid #aa7322;
+		}
+		.tab>ul>li>a:hover{
+			border-bottom:2px solid #aa7322;
+			color: #aa7322;
+		}
+		.text p{
+			border:1px solid rgba(0,0,0,0.12);
+			height: 40px;
+			line-height: 40px;
+			text-indent:0;
+			padding-left: 16px;
+			margin:16px auto;
+		}
+		.text input{
+			border:none;
+		}
+	/*	.bd-checkbox{
+			margin-top: 17px;
+		}
+		.btn-success{
+			margin-top: 16px;
+		}
+		.glyphicon-remove{
+			display: block;
+			width: 20px;
+			height: 20px;
+			background: #fff url(images/icon-gray-r-close.png) center no-repeat;
+			-webkit-background-size:20px;
+			background-size:20px;
+		}
+		.hwLayer-close{
+			right: 24px;
+		}*/
+
+
+
+		.hw-layer-wrap{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			width: 511px;
+			height: 430px;
+			margin-top: -255px;
+			margin-left: -215px;
+			border-radius: 0;
+			padding:40px 50px;
+			background-color: #ffffff;
+			box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+			color:#000;
+		}
+		.hw-layer-wrap h4{
+			padding-bottom: 7px;
+			margin: 0;
+			margin-bottom: 20px;
+			border-bottom:2px solid rgba(0,0,0,0.12);
+		}
+		.hw-layer-wrap h4 a{
+			font-size: 24px;
+			font-weight:600;
+			position: relative;
+			color:#ccc;
+			margin-right: 33px;
+		}
+		.hw-layer-wrap h4 a.active{
+			color:#000;
+		}
+		.hw-layer-wrap h4 a.active:after{
+			position: absolute;
+			content: '';
+			bottom: -9px;
+			left: 0;
+			height: 2px;
+			width: 100%;
+			background: #aa7322;
+		}
+		.formText{
+			font-size:12px;
+			margin-top: 10px;
+		}
+		#user,#password{
+			border:none;
+			border-bottom:2px solid rgba(0,0,0,0.12);
+			display: block;
+			width: 100%;
+			line-height: 34px;
+			outline:none;
+		}
+		#select{
+			margin-top: 15px;
+		}
+		#select>input{
+			display: inline-block;
+			margin-right: 8px;
+		}
+		#select label{
+			font-size: 12px;
+			line-height: 1;
+			text-align: left;
+			vertical-align:middle;
+			color: rgba(0, 0, 0, 0.12);
+		}
+		.login{
+			display: block;
+			margin:60px auto 68px;
+			width: 300px;
+			height: 40px;
+			background: #aa7322;
+			color: #fff;
+			border:none;
+			outline:none;
+		}
+
+
+
+		/*注册*/
+		.hw-layer-wrap.register{
+			width: 992px;
+			height: 860px;
+			margin-top: -430px;
+			margin-left: -496px;
+		}
+		.register-ul{
+			overflow: hidden;
+			width: 100%;
+		}
+		.register-ul li{
+			float: left;
+			width: 400px;
+		}
+		.register-ul li:nth-child(odd){
+			float: left;
+		}
+		.register-ul li:nth-child(even){
+			float: right;
+		}
+		.register-ul li i{
+			color:red;
+			padding-right: 5px;
+		}
+		.register-ul li input,.register-ul li select{
+			display: block;
+			width: 400px;
+			border:none;
+			border-bottom:2px solid rgba(0,0,0,0.12);
+			height: 38px;
+			line-height: 38px;
+			outline:none;
+		}
+		.login:last-child{
+			margin-top: 80px;
+		}
+		.register h3{
+			font-weight:400;
+			font-size: 18px;
+			color:#aa7322;
+			margin-top: 30px;
+			margin-bottom: 20px;
+		}
+		.byCode{
+			position: absolute;
+			right: 0;
+			bottom: 10px;
+			color:#aa7322;
+			cursor: pointer;
+		}
+
+
+		.btn{
+			-webkit-border-radius:0;
+			-moz-border-radius:0;
+			border-radius:0;
+		}
+		::-webkit-input-placeholder { /* WebKit browsers */
+			color: rgba(0,0,0,0.26);
+		}
+		:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+			color: rgba(0,0,0,0.26);
+		}
+		::-moz-placeholder { /* Mozilla Firefox 19+ */
+			color: rgba(0,0,0,0.26);
+		}
+		:-ms-input-placeholder { /* Internet Explorer 10+ */
+			color: rgba(0,0,0,0.26);
+		}
+		.btn{
+			padding:10px;
+		}
+		.text p:nth-child(2){
+			margin-top: -8px;
+		}
+		.video{
+			display: none;
+		}
+		.video span{
+			display: block;
+			float: right;
+			color:#FFF;
+			font-size:34px;
+			line-height: 0.5;
+			cursor: pointer;
+		}
+		.mask{
+			display: none;
+			position: fixed;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			background-color: rgba(0,0,0,0.6);
+			z-index: 90;
+		}
+		.videoPlay{
+			display: block;
+			position: fixed;
+			top: calc(50vh - 200px);
+			left:calc(50vw - 350px);
+			z-index: 99;
+		}
+		.video-list.container{
+			-webkit-box-shadow: none;
+			-moz-box-shadow: none;
+			box-shadow: none;
+		}
+		@media screen and (max-height : 769px){
+			.hw-layer-wrap{
+				padding:20px 25px;
+			}
+			.formText{
+				float: left;
+			}
+			.hw-layer-wrap.register{
+				width: 742px;
+				height: 560px;
+				margin-top: -280px;
+				margin-left: -371px;
+			}
+			.register-ul li{
+				width: 300px;
+			}
+			.register-ul li input,.register-ul li select{
+				width: 200px;
+				height: 38px;
+				line-height: 38px;
+				float: right;
+			}
+			.register h3 {
+				font-size: 16px;
+				margin-top: 20px;
+				margin-bottom: 10px;
+			}
+			.login:last-child{
+				margin-top: 40px;
+			}
+		}
+	</style>
+</head>
+<body>
+
+
+	<div class="bd-wrap">
+		<img src="images/video-banner.png" alt="纸匠官网">
+		<div class="top-title">
+			<p>课程介绍</p>
+			<span>COURSE INTRODUCTION</span>
+		</div>
+	</div>
+
+	<div class="container video-container">
+		<div class="row">
+			<div class="col-sm-12 video-cols">
+				<p><a href="https://www.papermaker.cn">纸匠&nbsp;&nbsp;&nbsp;/&nbsp;</a></p>
+				<div class="nav-p">
+					<a href="video.html">&nbsp;&nbsp;&nbsp;创客教育 &nbsp;<span class="sanjiao"></span> &nbsp;&nbsp;/ </a>
+					<ul class="nav-ul">
+						<li><a href="education.html">创客教育</a></li>
+						<li><a href="show.html">场景展示</a></li>
+						<li><a href="video.html">课程介绍</a></li>
+						<li><a href="join.html">创客招商</a></li>
+						<li><a href="teacher.html">合作名师</a></li>
+						<li><a href="institution.html">合作机构</a></li>
+					</ul>
+				</div>
+				<p style="color: #000;">&nbsp;&nbsp;&nbsp;课程介绍  </p>
+			</div>
+		</div>
+	</div>
+
+	<div class="timeline container">
+		<div class="container" style="padding: 0;margin:0">
+			<div class="row">
+				<div class="col-sm-12" style="padding: 0;">
+					<div class="tabs">
+						<ul>
+							<li style="min-width: 6rem">视频分类:</li>
+							<li><a href="#">折纸</a></li>
+							<li><a href="#">剪纸</a></li>
+							<li><a href="#">纸玩家居</a></li>
+							<li><a href="#">创意拼图</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container" style="padding: 0;margin:0">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="border"></div>
+					<div class="tab">
+						<ul>
+							<li class="current"><a href="#">最新</a></li>
+							<li><a href="#">热门</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="video-list container">
+			<div class="row bd-text">
+				<!-- 	  <div class="col col-sm-6 col-md-3 show-layer" data-show-layer="hw-layer" role="button">
+                          <a href="#">
+
+                               <img src="images/video.jpg" alt="纸匠官网" >
+                              <span class="video-play">
+                                  <img src="images/icon-video.png" alt="纸匠官网" style="width: 84px !important;height: 84px !important;">
+                         </span>
+                          </a>
+                            <div class="bd-title">
+                                标题名称标题名称标题名称
+                                <p>折纸</p>
+                            </div>
+                      </div>
+                    -->
+			</div>
+		</div>
+	</div>
+
+	<div class="hw-overlay" id="hw-layer">
+		<div class="hw-layer-wrap">
+			<h4><a href="#" class="active">登陆</a><a href="#">注册</a><span class="close"></span></h4>
+			<form action="#" id="formLogin">
+				   <div class="formText">账号</div>
+				<input type="text" id="user" placeholder="您的用户名">
+				   <div class="formText">密码</div>
+				<input type="password" id="password" placeholder="您的密码">
+			</form>
+			<div id="select"><input type="checkbox" id="selected"><label for="selected">下次自动登录</label></div>
+			<button class="login">登录</button>
+			<input type="reset" style="display: none;">
+		</div>
+		<div style="display: none;" class="hw-layer-wrap register">
+			<h4><a href="#">登陆</a><a href="#" class="active">注册</a><span class="close"></span></h4>
+			<form action="#" id="formReg">
+				<h3>账户信息</h3>
+				<ul class="register-ul">
+					<li>
+						<div class="formText"><i>*</i>用户名</div>
+						<input type="text" class="name" minlength="6" maxlength="20" placeholder="用户名由6-20位数字、字母组成"></li>
+					<li>
+						<div class="formText"><i>*</i>密码</div>
+						<input type="password" class="password" minlength="6" maxlength="20" placeholder="密码由6-20位数字、字母组成"></li>
+					<li>
+						<div class="formText"><i>*</i>注册码</div>
+						<input type="text" class="registerCode" placeholder="系统提供的注册码"></li>
+					<li>
+						<div class="formText"><i>*</i>重复密码</div>
+						<input type="password" class="passwords" minlength="6" maxlength="20" placeholder="重复您的密码"></li>
+				</ul>
+				<h3>用户信息</h3>
+				<ul class="register-ul">
+					<li> 
+						   <div class="formText"><i>*</i>宝宝姓名</div>
+						<input type="text" class="babyName" placeholder="宝宝的姓名">
+					</li>
+					<li> 
+						   <div class="formText"><i>*</i>父母姓名</div>
+						<input type="text" class="parentName" placeholder="宝宝父亲或母亲姓名">
+					</li>
+					<li> 
+						   <div class="formText"><i>*</i>宝宝年龄</div>
+						<input type="number" class="babyAge" placeholder="宝宝的实际年龄">
+					</li>
+					<li> 
+						   <div class="formText"><i>*</i>地址</div>
+						<input type="text" class="address" placeholder="您的家庭地址">
+					</li>
+					<li> 
+						   <div class="formText"><i>*</i>学校</div>
+						<input type="text" class="school" placeholder="宝宝所在学校">
+					</li>
+					<li style="position:relative;">
+						   <div class="formText"><i>*</i>手机号码</div>
+						<input type="tel" class="phone" placeholder="你的手机号码">
+						<span class="byCode">发送验证码</span>
+					</li>
+					<li> 
+						   <div class="formText"><i>*</i>兴趣爱好</div>
+						<input type="text" class="hobby" placeholder="宝宝的兴趣爱好">
+					</li>
+					<li> 
+						   <div class="formText"><i>*</i>验证码</div>
+						<input type="number" class="code" placeholder="您手机上收到的验证码">
+
+					</li>
+					<li> 
+						   <div class="formText"><i>*</i>选择分组</div>
+						<select name="group" id="group">
+							<option>5-7岁</option>
+							<option>7-13岁</option>
+							<option>13-16岁</option>
+						</select>
+					</li>
+				</ul>
+				<input type="reset" style="display: none;">
+			</form>
+			<button class="login login-register">完成</button>
+		</div>
+	</div>
+
+		<footer></footer>
+
+<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/TweenMax.min.js"></script>
+	<script src="js/ajax.js"></script>
+	<script>
+        $(function () {
+            var json =function () {
+
+					 ajax("get","edu/list",function (res) {
+						var data = res.data.eduVideoList;
+						var html = '';
+						for(var i=0;i<data.length;i++){
+							var content = data[i].content;
+							var title = data[i].name;
+							var type = data[i].type;
+							var img = data[i].fullImage;
+							if($("li.active").length>0){
+                                if(type == $("li.active a").html()){
+                                    html += '<div class="col col-sm-4 col-xs-6 col-md-3 show-layer" data-show-layer="hw-layer" role="button">' +
+                                        '<a href="#">' +
+                                        '<img src="'+img+'" alt="纸匠官网">' +
+                                        '<span class="video-play">' +
+                                        '<img src="images/icon-video.png" alt="纸匠官网" style="width: 56px !important;height: 56px !important;"></span></a>' +
+                                        '<div class="bd-title">' +
+                                        title +
+                                        '<p style="text-indent:0;">'+type+'</p>' +
+                                        '</div>' +
+                                        '</div>'
+                                }
+							}else {
+                                html += '<div class="col col-sm-4 col-xs-6 col-md-3 show-layer" data-show-layer="hw-layer" role="button">' +
+                                    '<a href="#">' +
+                                    '<img src="'+img+'" alt="纸匠官网">' +
+                                    '<span class="video-play">' +
+                                    '<img src="images/icon-video.png" alt="纸匠官网" style="width: 56px !important;height: 56px !important;"></span></a>' +
+                                    '<div class="bd-title">' +
+                                    title +
+                                    '<p style="text-indent:0;">'+type+'</p>' +
+                                    '</div>' +
+                                    '<div class="mask"><div class="video"><span>×</span><video x-webkit-airplay="true"  webkit-playsinline="true" preload="auto" controls src="'+data[i].videoPath+'"></video></div></div>'
+                                    +
+                                    '</div>'
+							}
+						}
+						$(".bd-text").html(html);
+						$(".loading").fadeOut(100);
+
+
+                         //触发弹出层
+                         $('.video-play img').each(function (index) {
+							 $(this).click(function () {
+                                 if(sessionStorage.userName){
+                                     $(this).parents(".show-layer").find(".video").addClass("videoPlay");
+//                                     遮罩层
+                                     $(".mask").eq(index).show();
+
+//                                     JS控制视频全屏播放
+									 /*    var videos = document.getElementsByTagName("video");
+                                     var docElm = videos[index];
+                                     //W3C
+                                     if (docElm.requestFullscreen) {
+
+                                         docElm.requestFullscreen();
+
+                                     }
+									//FireFox
+                                     else if (docElm.mozRequestFullScreen) {
+
+                                         docElm.mozRequestFullScreen();
+
+                                     }
+									//Chrome等
+                                     else if (docElm.webkitRequestFullScreen) {
+
+                                         docElm.webkitRequestFullScreen();
+
+                                     }
+									//IE11
+                                     else if (elem.msRequestFullscreen) {
+
+                                         elem.msRequestFullscreen();
+
+                                     }*/
+                                 }else {
+                                     showLayer('hw-layer');
+                                     if(localStorage.username && localStorage.userpassword){
+                                         $("#user").val(localStorage.username);
+                                         $("#password").val(localStorage.userpassword);
+                                         $("#selected").prop("checked",'true')
+                                     }
+                                 }
+                             })
+                         });
+                         $("video").click(function () {
+                             if ($(this).hasClass('play')) {
+                                 $(this).trigger("pause");
+                                 $(this).removeClass('play');
+                                 $(this).addClass('pause');
+                             } else {
+                                 $(this).trigger("play");
+                                 $(this).removeClass('pause');
+                                 $(this).addClass('play');
+                             }
+                         });
+
+						 $(".video span").click(function () {
+							 $(this).siblings("video").trigger("pause");
+							 $(this).parents(".mask").hide();
+                             $(this).siblings("video").removeClass('play');
+                             $(this).siblings("video").addClass('pause');
+                         })
+
+
+					});
+            };
+			json();
+			var $li = $(".tabs ul li a");
+ 			$li.click(function(){
+ 				var $this = $(this);
+ 				var $t = $this.index();
+ 				$li.parent().removeClass();
+				$this.parent().addClass('active');
+				json();
+ 			});
+ 			var $tabli = $(".tab ul li");
+ 			$tabli.click(function(){
+ 				var $this = $(this);
+ 				var $n = $this.index();
+ 				$tabli.removeClass();
+ 				$this.addClass("current");
+ 			});
+
+	 		//展示层
+		function showLayer(id){
+			var layer = $('#'+id),
+				layerwrap = layer.find('.hw-layer-wrap');
+			layer.fadeIn();
+			//屏幕居中
+		}
+
+		$(".register h4 a:eq(0)").click(function () {
+			if(!$(this).hasClass("active")){
+			    $(".hw-layer-wrap").show();
+			    $(".hw-layer-wrap.register").hide();
+			}
+        });
+            $(".hw-layer-wrap h4 a:eq(1)").click(function () {
+                if(!$(this).hasClass("active")){
+                    $(".hw-layer-wrap").hide();
+                    $(".hw-layer-wrap.register").show();
+                }
+            });
+
+		//隐藏层
+		function hideLayer(){
+			$('.hw-overlay').fadeOut();
+		}
+
+		$('.hwLayer-cancel,.close').on('click', function() {
+			hideLayer();
+		});
+
+
+
+
+		//点击或者触控弹出层外的半透明遮罩层，关闭弹出层
+		$('.hw-overlay').on('click',  function(event) {
+			if (event.target == this){
+				hideLayer();
+			}
+		});
+
+		//按ESC键关闭弹出层
+		$(document).keyup(function(event) {
+			if (event.keyCode == 27) {
+				hideLayer();
+			}
+		});
+
+
+		//登录
+		$(".login:eq(0)").click(function () {
+			var username = $("#user").val();
+			var userpassword = $("#password").val();
+			if(username == "" || userpassword == ""){
+			    return;
+			}
+			var data = {
+			    "name":username,
+				"password":userpassword
+			};
+			ajax("post","user/login",data,function (res) {
+                if(res.code == 0){
+                    hideLayer();
+                    $(".loading").fadeOut(100);
+                    sessionStorage.userName = true;
+                    if($("#selected").is(':checked')){
+                        localStorage.username = username;
+                        localStorage.userpassword = userpassword;
+					}
+				}else {
+                    alert(res.msg,res.data)
+				}
+            },function (res) {
+				alert(res.data);
+                $(".loading").fadeOut(100);
+            })
+        });
+
+		//验证码
+		$(".byCode").bind("click",getCode);
+		var reg = /^1[34578]\d{9}$/;
+		var serverCode;//系统验证码
+		function getCode() {
+			var phone = $(".phone").val();
+			if(reg.test(parseInt(phone))){
+				ajax("post","user/getCode","phone="+phone,function (res) {
+					alert(res.data.msg);//成功弹窗
+                    $(".loading").fadeOut(100);
+					if(res.code == 0){
+                        serverCode = res.data.code;
+						$(".byCode").css("color","rgba(0,0,0,0.26)");
+						$(".byCode").unbind("click");
+						var number = 60;
+						var time = setInterval(function () {
+							number--;
+							$(".byCode").html("发送验证码 "+number + "s");
+                            if(number == 0){
+                                clearInterval(time);
+                                number =60;
+                                $(".byCode").html("发送验证码");
+                                $(".byCode").css("color","#aa7322");
+                                $(".byCode").bind("click",getCode);
+							}
+						},1000)
+					}
+				},function (res) {
+                    $(".loading").fadeOut(100);
+					alert(res.data);//失败弹窗
+				})
+			}else{
+				alert("请正确填写您的手机号码")
+			}
+		}
+
+		//注册
+		$(".login-register").click(function () {
+		    var regPassword = /^(?!\D+$)(?![^a-zA-Z]+$)\S{6,20}$/;
+			var name = $(".name").val();
+			var password = $(".password").val();
+			var passwords = $(".passwords").val();
+			var babyName = $(".babyName").val();
+			var babyAge = $(".babyAge").val();
+			var school = $(".school").val();
+			var hobby = $(".hobby").val();
+			var parentName = $(".parentName").val();
+			var address = $(".address").val();
+			var registerCode = $(".registerCode").val();
+			var code = $(".code").val();
+			var group = $("#group").val();
+			var phone = $(".phone").val();
+
+			if($.trim(password) !== $.trim(passwords)){
+			    alert("两次密码不一致");
+			    return false;
+			}
+            if(!reg.test(parseInt(phone))){
+                alert("请正确填写您的手机号码")
+            }
+            if($.trim(code) != serverCode){
+                alert("验证码错误，请重新输入");
+                return;
+			}
+            if(name == '' || password == '' || passwords == '' || babyName == '' || babyAge == '' || school == '' || hobby == '' || parentName == '' || address == '' || registerCode == '' || code == '' || group == '' || phone == '' ){
+                alert("请补全资料");
+                return
+            }
+            if(!regPassword.test(passwords) || !regPassword.test(password) || !regPassword.test(name)){
+			    alert("用户名或密码不规范");
+                return
+            }
+            var ajaxData = {
+                "name":name,
+                "password":password,
+                "babyName":babyName,
+                "babyAge":babyAge,
+                "school":school,
+                "hobby":hobby,
+                "ageGroup":group,
+                "parentName":parentName,
+                "address":address,
+                "phone":phone,
+                "registerCode":registerCode,
+                "code":code
+			};
+			ajax("post","user/register",ajaxData,function (res) {
+                $(".loading").fadeOut(100);
+				if(res.code == 0){
+                    $("#formReg input[type=reset]").trigger('click');
+                    $(".hw-layer-wrap").show();
+                    $(".hw-layer-wrap.register").hide();
+				}else {
+				    alert(res.msg,res.data);
+				}
+            },function (res) {
+                $(".loading").fadeOut(100);
+				alert(res.msg,res.data)
+            })
+
+        })
+		// setVisual();
+ 	});
+ </script>
+</body>
+</html>

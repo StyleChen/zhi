@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Paper Maker Shop</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="shortcut icon" href="../images/logo.ico">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/myoder.css">
+    <script src="../js/jquery-2.2.2.min.js"></script>
+    <script src="js/public.js"></script>
+    <script src="js/myOrder.js"></script>
+</head>
+<body>
+    <div class="headerContainer"></div>
+    <div class="wraps clearfix">
+        <div class="wraLeft">
+            <h2 class="navTitle">All Functions</h2>
+            <ul class="navUl">
+                <li>My Orders</li>
+            </ul>
+            <div class="bg"></div>
+        </div>
+        <div class="wraRight list">
+            <h2>My Orders</h2>
+            <div class="clearfix">
+                <span>Product Name</span><span>Unit Price</span><span>Quantity</span>
+                <span>Product Operation</span><span>Transaction Situation</span><span>Transaction Operation</span>
+            </div>
+            <ul class="orderLists">
+                <li style="margin-top: 30px;border: none;text-align: center;">You Didn't Place Any Order</li>
+            </ul>
+            <div class="orderGroup">
+                <p class="left">Total <span class="allOrder">1</span> Pages</p>
+                <p class="left">Current <span class="nowPage">1</span> Page</p>
+                <div class="orderBy right">
+                    <button class="left prePage">Previous</button>
+                    <ul class="orderByList left">
+                        <li class="pageActive">1</li>
+                    </ul>
+                    <button class="left nextPage">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer></footer>
+</body>
+</html>

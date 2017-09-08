@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>加入纸匠 - 纸家具_益智玩具_纸玩_纸匠</title>
+	<meta name="description" content="加入纸匠 - 纸匠做为纸玩行业领导者,现有创意生活家居,实用办公用品,礼品装饰品,商业道具,儿童益智玩具与教程五大系列产品。专注于纸家具和儿童产品开发，让儿童感受到环保、益智、学习乐趣"/>
+	<meta name="keywords" content="纸家具,创意家具,益智玩具,纸玩,纸匠"/>
+	<link rel="shortcut icon" href="images/logo.ico">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/all.css">
+	<!--<link rel="stylesheet" href="css/common.css">-->
+	<!--<link rel="stylesheet" href="css/interview.css">-->
+
+	<style>
+	 	body,html{
+	 		overflow: visible;
+	 		background-color: #f4f4f4;
+	 	}
+		.bd-wrap{
+			width: 100%;
+			height: auto;
+			position: relative;
+			background-color: #f4f4f4;
+		}
+		.bd-wrap img{
+			width: 100%;
+			height: 100%;
+		}
+		.team-container{
+			background-color: #f4f4f4;
+			position: relative;
+			width: 90%;
+			padding: 0;
+		}
+		.team-container .row{
+			padding: 0;
+			margin: 0;
+			background: #ffffff;
+		}
+		.team-container .row .col-sm-6{
+			padding: 0;
+		}
+		.top-title{
+			position: absolute;
+			top: 180px;
+			left: 180px;
+			border-top: solid 5px #fff;
+			border-bottom: solid 5px #fff;
+			width: 225px;
+		}
+		.top-title p{
+			font-size: 36px;
+			color: #fff;
+			font-weight: 350;
+		}
+		.top-title span{
+			font-size: 20px;
+			color: #fff;
+			font-weight: 300;
+		}
+		footer{
+			margin-top: 50px;
+			background-color: #fff;
+			padding: 20px;
+			overflow: hidden;
+			position: relative;
+			padding-bottom: 120px;
+		}
+		.ft-box{
+			text-align: center;
+			position: relative;
+			left: 50%;
+			float: left;
+		}
+		.ft-logo{
+			position: relative;
+			right: 50%;
+		}
+		.ft-text{
+			margin-top: 30px;
+			position: relative;
+			right: 50%;
+		}
+		.last-list{
+			overflow: hidden;
+			position: relative;
+			right: 50%;
+			margin-top: 30px;
+		}
+		.last-list li{
+			overflow: hidden;
+			float: left;
+			border-right: 1px solid #000;
+		}
+		.last-list li a{
+			float: left;
+			color: #000;
+			text-decoration: none;
+			padding: 0 10px;
+			line-height: 15px;
+		}
+		.list-icon{
+			overflow: hidden;
+			position: relative;
+			right: 10%;
+			margin-top: 20px;
+		}
+		.list-icon li{
+			float: left;
+		}
+		.bottom-border{
+			height: 1px;
+			background-color: rgba(0, 0, 0, 0.12);
+			width: 80%;
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			transform: translate(-50%,0);
+			margin-bottom: 100px;
+		}
+		.foot-text{
+			position: absolute;
+			bottom: 0;
+			text-align: center;
+			left: 50%;
+			transform: translate(-50%,0);
+			margin-bottom: 20px;
+			color: rgba(0, 0, 0, 0.54);
+		}
+		.video-container{
+			width: 90%;
+			margin-top: -245px;
+			position: relative;
+			background-color: #fff;
+			margin-bottom: 20px;
+		}
+		.video-cols{
+			height: 60px;
+		}
+		.video-cols p{
+			float: left;
+			color: rgba(0, 0, 0, 0.26);
+			line-height: 60px;
+		}
+		.col-banner-rt img{
+			height: 100%;
+		}
+		.col-title{
+			color: #aa7322;
+			font-size: 20px;
+			font-weight: 500;
+			/*text-decoration:underline;*/
+		}
+		.col-text{
+			margin-top: 24px;
+		}
+		.col-title-2{
+			font-size: 14px;
+			font-weight: 500;
+			color: rgba(0, 0, 0, 0.87);
+			margin-top: 10px;
+		}
+		.col-banner-rt:before{
+			content: '';
+			display: inline-block;
+			position: absolute;
+			width: 100px;
+			height: 100%;
+			background-color: #fff;
+			opacity: 0.7;
+		}
+		.contact:nth-child(even) .col-banner-rt:before{
+			content: '';
+			display: inline-block;
+			position: absolute;
+			right: 0;
+			width: 100px;
+			height: 100%;
+			background-color: #fff;
+			opacity: 0.7;
+		}
+		.contact{
+			position: relative;
+			overflow: hidden;
+			height:auto;
+			margin-bottom: 20px !important;
+		}
+
+		/*第一块效果*/
+		.contact .col-sm-6:after{
+			position: absolute;
+			display: block;
+			content: '';
+			top: 0;
+			z-index:2;
+			width: 100%;
+			height: 100%;
+			background-color: #FFF;
+			-webkit-transition: width .5s;
+			-moz-transition: width .5s;
+			-ms-transition: width .5s;
+			-o-transition: width .5s;
+			transition: width .5s;
+		}
+		.contact:nth-child(odd) .col-sm-6:after{
+			right: 0;
+		}
+		.contact:nth-child(even) .col-sm-6:after{
+			left: 0;
+		}
+		.contact .showA .hideH .contactText{
+			padding:60px 20px 0;
+		}
+
+		/*.contactText{
+			position: absolute;
+			z-index:1;
+			top: 0;
+			left: 0;
+		}*/
+		.contact:after{
+			display: block;
+			content: '';
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			background: #f5f5ee;
+			z-index:3;
+			-webkit-transition: all 1s;
+			-moz-transition: all 1s;
+			-ms-transition: all 1s;
+			-o-transition: all 1s;
+			transition: all 1s;
+		}
+		.contact:nth-child(odd):after{
+			 right: 0;
+		 }
+		.contact:nth-child(even):after{
+			left: 0;
+		}
+
+		.contact .hideW:after,.contact-active:after{
+			width: 0;
+		}
+		.contact .hideH:after,.modBox-inner .hideH:after{
+			height: 0;
+		}
+		.team-container .contact:nth-child(even) .col-sm-6{
+			float: right;
+		}
+		.showA:after{
+			display: block;
+			content: '';
+			clear: both;
+		}
+		.col-sm-6{
+			overflow: hidden;
+			height: 100%;
+		}
+		.col-banner-rt .img{
+			height: 400px;
+		}
+		.showA{
+			overflow: hidden;
+		}
+	</style>
+</head>
+<body>	
+
+
+	<div class="bd-wrap">
+		<img src="images/video-banner.png" alt="纸匠">
+		<div class="top-title">
+			<p>加入我们</p>
+			<span>COME AND JOIN US</span>
+		</div>
+	</div>
+
+	<div class="container video-container">
+			<div class="row">
+				<div class="col-sm-12 video-cols">
+					<p><a href="https://www.papermaker.cn">纸匠&nbsp;&nbsp;&nbsp;/&nbsp;</a></p>
+					<p><a href="team.html" style="color:#000 !important;">&nbsp;&nbsp;&nbsp;加入我们 &nbsp;&nbsp;</a></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container team-container">
+			产品设计
+			薪资待遇： 面议
+			任职要求
+			根据营销需求以及公司品牌需求，做产品设计、产品开发。
+			任职资格：
+			大专及以上学历，工业设计、产品造型设计及相关艺术专业，较强的手绘表现能力及软件表现能力；
+			熟练应用3DMAX/3DRhino(犀牛)/PRO-E/AUTOCAD三维设计软件与相关平面设计软件；
+			2年以上产品设计开发经验；
+			客户经理
+			薪资待遇： 面议
+			任职要求
+			负责与重点客户保持定期沟通并及时反馈客户提出的问题，跟踪客户的服务请求；
+			负责跟踪客户服务购买、历史记录及客户满意度，分析客户服务需求、制定服务流程；
+			负责制订、修正客户开发规范并完善客户开发标准流程，推动客户开发工作的顺利进行；
+			对公司现有客户资料进行统计分析，负责建立客户信息库并保证数据的真实准确性、定期安排拜访工作；
+			针对区域范围内的市场动向及竞品信息，提出合理化建议和对策；
+			管理客户开发团队，提高大客户开发效率，定期召开大客户部会议，协调各方面关系；
+			根据实际能力进行工作指导及销量支持；
+			负责制定客户部的工作流程规范、部门发展战略规划及相关规章制度，上级报批通过后贯彻执行；
+			严格落实市场调研，分析市场状况，正确做出市场销售预测，拟定年度渠道销售计划、预算，分解目标及预算，制定具体渠道推广方案，申报批准并严格督导落实；
+			负责开发谈判及协议的签订，对客户部日常业务管理，有效管理客户及渠道档案，审阅、合同签订协议，正常业务沟通，产品培训；
+			负责渠道及大型客户管控及公司各项目品牌推广工作。
+			大专以上学历，市场营销相关专业；
+			五年以上工作经验，有幼儿教育、儿童玩具、创意家具客户资源者优先；
+			熟悉商务谈判，具有一定的渠道销售经验者优先；
+			具备市场分析及判断能力，有敏锐的市场洞察力、观察力；
+			良好的客户服务意识；
+			新媒体
+			薪资待遇： 面议
+			任职要求
+			结合新媒体今日头条、大咖、网红、直播、微博、微信、文章、论坛、豆瓣、手游等平台等进行品牌宣传，纸粉互动维护。
+			利用新媒体工具建立行业资料库，提高知名度，提升产品销量；
+			内容的实时调整和更新；
+			负责微博、微信大型活动方案的策划、创意、执行、运营以及汇报和总结。
+			策划组织线上合作活动以及定向专题活动的组织策划执行推广，并做相应的活动评估报告和总结报告，同时负责微博微信媒体资源拓展，渠道运营及管理；
+			分析同行业微博，微信内容结构及话题热点，调研目标用户群体喜好，在此基础上定位客户需求及喜好，增长粉丝量；
+			完成上级指定的其他工作;
+			搜集相关媒介资料并进行分析，及时把握媒体动向；
+			协调维护媒体关系，与媒体建立长期稳定的合作关系；
+			各种新闻稿件的媒体发放及传播监控；
+			积极了解客户的各项需求，独立完成媒体计划；
+			策划或召集举行相关重要会议及公关活动。
+			拓展招商专员 （急）
+			薪资待遇： 面议
+			任职要求
+			负责公司品牌的拓展开发；
+			收集并跟踪意向客户，维护客户资源，开拓潜在客户并最终达成合作；
+			负责客户的合同签订，与客户的管理。
+			反应敏捷、表达能力强，具有较强的沟通能力及交际技巧，具有亲和力；
+			有一定的招商、销售等相关工作经验；
+			有团队协作精神，善于挑战。
+			空间设计师（带上作品）（急）
+			薪资待遇： 面议
+			任职要求
+			根据公司产品风格和定位，提出展示厅的整体策划方案；
+			结合企业的营销策略和发展方向，确定展示厅的装修风格；
+			负责收集装修相关素材，为图纸的绘制提供资料；
+			能够完成图纸的绘制（效果图、施工图、节点图）；
+			主动与总经理沟通装修方案，并及时进行修改和完善；
+			掌握装修行情，收集信息，完成装修预算；
+			负责现场施工、监督、验收；
+			负责公司店面服装标准模型完善和道具优化；
+			装修方案；
+			全国招商会的策划、筹备等工作；
+			完成公司日常的平面设计工作；
+			完成领导交代的其它工作。
+			任职要求：
+			商业外设计、装饰装修设计、平面设计或美术等相关专业；
+			熟练掌握AutoCad、3dsmax、Photoshop等绘图软件;
+			对店装展示的施工工艺、结构及材质有一定了解，会做预算；
+			主要制作服装店的道具大样图及施工详图及效果图；
+			良好的沟通能力，诚信敬业。
+			教育主任/高级教师（急）
+			薪资待遇： 面议
+			任职要求
+			熟悉幼儿园教材，根据公司的学校客户制定课程研究及老师培训方案；
+			根据培训计划按时备课、授课；
+			负责培训质量控制，对出现的问题及时调整和解决；
+			协助项目主管，做好产品推广工作；
+			能接受出差。
+			师范专业，大专以上学历，有丰富的幼儿园教学经验；
+			熟悉幼儿园教材，具有幼儿园教学工作经验；
+			具有强烈的责任感和事业心；
+			具有较好的活动组织能力及现场表达能力；
+			具有优秀的沟通能力及组织协调能力。
+			电商运营/淘宝店长
+			薪资待遇： 面议
+			任职要求
+			负责天猫网店的整体规划、营销、推广、客户关系管理等系统经营性工作；
+			负责店面日常改版策划、上架、推广、销售、售后服务等日常运作与管理工作；
+			熟悉淘宝操作流程和交易规则及关注相关公告发布并作出及时反应对策；
+			协调店铺与公司内部的各项资源配置，有效提高各工作绩效与能力，定期组织客服人员技能培训及KPI考核；
+			制定各部门工作规范、并进行有效的客服培训管理
+			和工厂沟通落实商品的生产款式、交货日期、质检、成品数量，保证店铺的产品更新，价格议定；
+			制定月度销售任务和服务水平提升目标，制定月度店铺推广预算；
+			负责策划店铺促销活动方案，执行与配合淘宝官方相关营销活动，带领管理团队完成预期销售目标；
+			负责收集市场和行业信息，产品分析，为公司定制网销产品提供依据；
+			淘宝营销工具研究，优化店铺及商品排名，提出应用方案，提高入店流量，增大点击率和浏览量、转化率；
+			优化产品关键词、库存和产品线，并根据实际情况微调店铺的经营方向
+			按日/周/月/季监控分析数据（营销数据、交易数据、客户关系、库存数据），定期针对推广效果进行跟踪、评估，并提交推广效果的统计分析报表，及时提出营销改进措施，并给出切实可行的改进方案；
+		</div>
+	<footer></footer>
+
+<script src="js/jquery-2.2.2.min.js"></script>
+	<script src="js/ajax.js"></script>
+	<script>
+		$(function () {
+            var json = ajax("get","job/list",function (res) {
+                var list = res.data.jobList;
+                var html = "";
+                for(var i=0;i<list.length;i++){
+                    var text = list[i].officeRequire;
+                    var textArray = text.split("\n");
+                    var textLi = '';
+                    var img = list[i].fullImage;
+                    for (var t=0;t<textArray.length;t++){
+                        textLi += '<li style="list-style:decimal;margin:auto 20px;">'+textArray[t]+'</li>';
+                    }
+                    html += '<div class="row contact"> <div class="showA row"> <div class="col-sm-6 height animated"> <div class="contactText"> <div class="col-title">' +
+                        list[i].name +
+						'</div> <div class="col-text">' +
+						'薪资待遇： ' +	list[i].salary +
+						'</div> <div class="col-title-2">任职要求</div> <div class="col-text-2">' +
+						'<ul>' + textLi+
+						'</ul> ' +
+						'</div> </div> </div> <div class="col-sm-6 col-banner-rt  modPanel-box"> ' +
+						'<img class="img" src="'+ img +'"> ' +
+						'</div> </div> </div>';
+				}
+
+				$(".team-container").html(html);
+				$(".loading").fadeOut(100);
+//				页面渲染需要时间，函数需要等DOM全部加载完后执行，所以暂加个定时器延时执行
+                setTimeout(function () {
+                    siled($(".contact"));
+                },300);
+
+            });
+
+
+			function siled(ele) {
+                for(var n=0;n<ele.length;n++){
+                    if(!ele.eq(n).hasClass("contact-active")) {
+                        if (jQuery(window).height() > (ele[n].getBoundingClientRect().top + ele.eq(n).outerHeight() / 2)) {
+                            ele.eq(n).addClass("contact-active");
+                            (function (n) {
+                                setTimeout(function () {
+                                    ele.eq(n).find(".col-sm-6").eq(1).addClass("hideW");
+                                   imgWH();
+                                }, 1000);
+                                setTimeout(function () {
+                                    ele.eq(n).find(".col-sm-6").eq(0).addClass("hideH shake");
+                                },700)
+                            })(n)
+                        }
+                    }
+                }
+
+            }
+			$(window).scroll(function () {
+                siled($(".contact"));
+            });
+			$(window).resize(function () {
+				imgWH();
+            });
+			function imgWH() {
+                var heights = $(".showA");
+                for(var h=0;h<heights.length;h++){
+                    var height = $(".showA").eq(h).css("height");
+                    $(".showA").eq(h).find(".img").css("height",height);
+                    var w = $(".showA").eq(h).find(".img").css("width");
+                    var pw = $(".showA").eq(h).find(".img").parent().css("width");
+                    if(w < pw){
+                        $(".showA").eq(h).find(".img").css({
+                            "width":pw,
+                            "height":"auto"
+                        })
+                    }
+                }
+            }
+        })
+	</script>
+</body>
+</html>
